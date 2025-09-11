@@ -1,5 +1,6 @@
-                               Student Portfolio AI Assistant
-An intelligent chatbot designed to provide instant, accurate answers about student achievements from a JSON dataset. This project leverages a sophisticated hybrid AI model combining a Retrieval-Augmented Generation (RAG) pipeline for portfolio summaries and a direct data query engine for specific, database-style questions.
+  Student Portfolio AI Assistant
+- An intelligent chatbot designed to provide instant, accurate answers about student achievements from a JSON dataset.
+- This project leverages a sophisticated hybrid AI model combining a Retrieval-Augmented Generation (RAG) pipeline for portfolio summaries and a direct data query engine for specific, database-style questions.
 
 Overview
 This application serves as a powerful interface for querying complex student data through a simple, conversational chat interface. Instead of manually searching through JSON files or writing database queries, users can ask questions in natural language and receive immediate, context-aware responses.
