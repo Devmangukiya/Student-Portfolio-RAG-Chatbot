@@ -1,0 +1,3762 @@
+[
+    {
+        "name": "Michael Wood",
+        "email": "gabrielmcdonald@elliott.com",
+        "student_id": "STU001",
+        "department": "Mathematics",
+        "dob": "2003-04-02",
+        "achievements": [
+            {
+                "achievement_id": "ACH0011",
+                "type": "Workshop",
+                "title": "Account knowledge leader choose modern.",
+                "description": "Show small former individual. Likely radio least point every free. Everyone ok without.",
+                "date": "2023-02-21",
+                "status": "Approved",
+                "approved_by": "Justin Leon",
+                "credit_awarded": 1
+            },
+            {
+                "achievement_id": "ACH0012",
+                "type": "Leadership",
+                "title": "Major event.",
+                "description": "Get tend suddenly morning help music.\nThird building large know choose buy. Card often notice wind.",
+                "date": "2024-06-25",
+                "status": "Approved",
+                "approved_by": "Walter Johnson",
+                "credit_awarded": 1
+            }
+        ]
+    },
+    {
+        "name": "Amy Hatfield",
+        "email": "alexanderashley@jones.org",
+        "student_id": "STU002",
+        "department": "Civil",
+        "dob": "1999-12-25",
+        "achievements": [
+            {
+                "achievement_id": "ACH0021",
+                "type": "Sports",
+                "title": "Inside tree seven say ball.",
+                "description": "Let face education clearly anyone. Story place sport get say shoulder.",
+                "date": "2022-02-23",
+                "status": "Pending",
+                "approved_by": "Mark Chavez",
+                "credit_awarded": 3
+            },
+            {
+                "achievement_id": "ACH0022",
+                "type": "Sports",
+                "title": "All final rather speech.",
+                "description": "Expert probably west film. Something law consumer policy image us. Each wonder detail perhaps as.",
+                "date": "2021-11-23",
+                "status": "Pending",
+                "approved_by": "Angela Parker",
+                "credit_awarded": 3
+            },
+            {
+                "achievement_id": "ACH0023",
+                "type": "Certification",
+                "title": "Summer trade newspaper.",
+                "description": "Hair act only Mr. Move member dark ask. Still clearly of model baby.",
+                "date": "2022-10-08",
+                "status": "Approved",
+                "approved_by": "Tamara Nunez",
+                "credit_awarded": 1
+            }
+        ]
+    },
+    {
+        "name": "Danielle Lopez",
+        "email": "chorton@guzman-stanton.net",
+        "student_id": "STU003",
+        "department": "Electronics",
+        "dob": "2005-04-30",
+        "achievements": [
+            {
+                "achievement_id": "ACH0031",
+                "type": "Sports",
+                "title": "Employee window without today seven.",
+                "description": "Offer explain member hair really. Under free which sea course.",
+                "date": "2025-01-24",
+                "status": "Approved",
+                "approved_by": "Melissa Townsend",
+                "credit_awarded": 2
+            }
+        ]
+    },
+    {
+        "name": "Keith Burns",
+        "email": "burkedaniel@barnett.com",
+        "student_id": "STU004",
+        "department": "Mechanical",
+        "dob": "2004-01-18",
+        "achievements": [
+            {
+                "achievement_id": "ACH0041",
+                "type": "Internship",
+                "title": "Assume police attack performance themselves.",
+                "description": "Affect two against fear radio. Happy age themselves best beat. Step skin tough goal.",
+                "date": "2022-01-21",
+                "status": "Approved",
+                "approved_by": "Eric Lee",
+                "credit_awarded": 2
+            }
+        ]
+    },
+    {
+        "name": "Renee Lopez",
+        "email": "tinasingleton@yahoo.com",
+        "student_id": "STU005",
+        "department": "Mathematics",
+        "dob": "2000-07-26",
+        "achievements": [
+            {
+                "achievement_id": "ACH0051",
+                "type": "Hackathon",
+                "title": "Detail staff power let behind.",
+                "description": "Yard direction might service management level. Skin owner practice specific wife forget.",
+                "date": "2023-01-20",
+                "status": "Pending",
+                "approved_by": "Matthew Bradford",
+                "credit_awarded": 5
+            },
+            {
+                "achievement_id": "ACH0052",
+                "type": "Research",
+                "title": "Focus book market.",
+                "description": "What hear police factor. Most impact some decision region second hand.\nNation at outside turn.",
+                "date": "2024-05-04",
+                "status": "Rejected",
+                "approved_by": "Steven Young",
+                "credit_awarded": 5
+            },
+            {
+                "achievement_id": "ACH0053",
+                "type": "Internship",
+                "title": "Job design center new.",
+                "description": "Value support light difficult full it hear. East positive book science first admit.",
+                "date": "2022-08-26",
+                "status": "Rejected",
+                "approved_by": "John Mathis",
+                "credit_awarded": 3
+            },
+            {
+                "achievement_id": "ACH0054",
+                "type": "Internship",
+                "title": "Huge between.",
+                "description": "Thought high during product few here. Pull behavior player democratic.",
+                "date": "2023-11-21",
+                "status": "Rejected",
+                "approved_by": "Ian Brown",
+                "credit_awarded": 2
+            }
+        ]
+    },
+    {
+        "name": "Timothy Campos",
+        "email": "jacksonmichael@miles-barnes.com",
+        "student_id": "STU006",
+        "department": "Physics",
+        "dob": "2003-04-28",
+        "achievements": [
+            {
+                "achievement_id": "ACH0061",
+                "type": "Sports",
+                "title": "Reveal firm wall.",
+                "description": "Address always various left act forget should. Great adult live result audience coach former.",
+                "date": "2022-12-06",
+                "status": "Pending",
+                "approved_by": "Todd Jackson",
+                "credit_awarded": 2
+            },
+            {
+                "achievement_id": "ACH0062",
+                "type": "Workshop",
+                "title": "Its onto fund happen.",
+                "description": "Without establish back theory none involve picture. Special final history school mention.",
+                "date": "2024-04-18",
+                "status": "Approved",
+                "approved_by": "Michael Butler",
+                "credit_awarded": 1
+            },
+            {
+                "achievement_id": "ACH0063",
+                "type": "Certification",
+                "title": "Style environmental risk.",
+                "description": "Floor economy important face need.\nWear laugh week position well wide. Shoulder many west hair.",
+                "date": "2025-01-10",
+                "status": "Rejected",
+                "approved_by": "Nicole Hendricks",
+                "credit_awarded": 3
+            },
+            {
+                "achievement_id": "ACH0064",
+                "type": "Internship",
+                "title": "We summer shake need other.",
+                "description": "Time authority force notice. Partner guy gas college type purpose.",
+                "date": "2023-12-17",
+                "status": "Rejected",
+                "approved_by": "Julie Zimmerman",
+                "credit_awarded": 3
+            }
+        ]
+    },
+    {
+        "name": "Mrs. Anna Davis",
+        "email": "iwilliams@hotmail.com",
+        "student_id": "STU007",
+        "department": "Computer Science",
+        "dob": "2007-09-04",
+        "achievements": [
+            {
+                "achievement_id": "ACH0071",
+                "type": "Sports",
+                "title": "Nearly method meeting.",
+                "description": "My inside former book. Choice nature power theory economy.",
+                "date": "2024-09-03",
+                "status": "Pending",
+                "approved_by": "Kerry Weaver",
+                "credit_awarded": 5
+            },
+            {
+                "achievement_id": "ACH0072",
+                "type": "Hackathon",
+                "title": "Front religious.",
+                "description": "Finally maybe sometimes there. Three on service cultural wind. Article sure red.",
+                "date": "2024-02-11",
+                "status": "Pending",
+                "approved_by": "Ana Myers",
+                "credit_awarded": 3
+            },
+            {
+                "achievement_id": "ACH0073",
+                "type": "Sports",
+                "title": "Behavior course owner.",
+                "description": "Enough parent suddenly whole. Ever again six impact. Hot those them.",
+                "date": "2022-03-12",
+                "status": "Pending",
+                "approved_by": "Robert Mason",
+                "credit_awarded": 5
+            },
+            {
+                "achievement_id": "ACH0074",
+                "type": "Sports",
+                "title": "Any fill ask still.",
+                "description": "Trial watch religious huge room offer tell. Plan art sea.",
+                "date": "2023-02-05",
+                "status": "Pending",
+                "approved_by": "Taylor Fields",
+                "credit_awarded": 1
+            }
+        ]
+    },
+    {
+        "name": "David Russell",
+        "email": "jared34@hotmail.com",
+        "student_id": "STU008",
+        "department": "Chemistry",
+        "dob": "2001-10-02",
+        "achievements": [
+            {
+                "achievement_id": "ACH0081",
+                "type": "Research",
+                "title": "Century consider wife project wonder.",
+                "description": "Exist thousand person ten drug number if against. Huge TV along carry citizen need something.",
+                "date": "2025-01-30",
+                "status": "Approved",
+                "approved_by": "Richard Ramirez",
+                "credit_awarded": 2
+            },
+            {
+                "achievement_id": "ACH0082",
+                "type": "Leadership",
+                "title": "Toward alone president that despite.",
+                "description": "Fire throw treatment. Writer above anything media institution.",
+                "date": "2025-05-03",
+                "status": "Pending",
+                "approved_by": "Karen Garcia",
+                "credit_awarded": 1
+            },
+            {
+                "achievement_id": "ACH0083",
+                "type": "Workshop",
+                "title": "Evidence yard.",
+                "description": "Join mother pay Congress effort positive car. Available some common car window certainly.",
+                "date": "2023-01-10",
+                "status": "Rejected",
+                "approved_by": "Taylor Roman",
+                "credit_awarded": 5
+            },
+            {
+                "achievement_id": "ACH0084",
+                "type": "Sports",
+                "title": "Thank clear poor.",
+                "description": "Instead cover college than idea provide computer. Process eye product defense free.",
+                "date": "2024-12-26",
+                "status": "Pending",
+                "approved_by": "Jasmine Franklin",
+                "credit_awarded": 1
+            }
+        ]
+    },
+    {
+        "name": "Tyler Glass",
+        "email": "timothyewing@williams.net",
+        "student_id": "STU009",
+        "department": "Electrical",
+        "dob": "2005-06-27",
+        "achievements": [
+            {
+                "achievement_id": "ACH0091",
+                "type": "Workshop",
+                "title": "White break spring person lay.",
+                "description": "Human generation until behind kid least. Across option entire project nearly rock perform.",
+                "date": "2021-11-30",
+                "status": "Approved",
+                "approved_by": "Jean Wong",
+                "credit_awarded": 4
+            },
+            {
+                "achievement_id": "ACH0092",
+                "type": "Hackathon",
+                "title": "Each certainly design involve.",
+                "description": "Factor word risk seek any see owner at. Ten move their court difference heavy drug past.",
+                "date": "2025-05-09",
+                "status": "Rejected",
+                "approved_by": "Ronald Rodriguez",
+                "credit_awarded": 4
+            },
+            {
+                "achievement_id": "ACH0093",
+                "type": "Sports",
+                "title": "Sea expect girl prepare.",
+                "description": "Clearly open option movie set. Again painting analysis usually political big position word.",
+                "date": "2023-05-31",
+                "status": "Rejected",
+                "approved_by": "Kevin Morales",
+                "credit_awarded": 3
+            }
+        ]
+    },
+    {
+        "name": "Yolanda Kelly",
+        "email": "tgonzales@kim.com",
+        "student_id": "STU010",
+        "department": "Electronics",
+        "dob": "1999-10-14",
+        "achievements": [
+            {
+                "achievement_id": "ACH0101",
+                "type": "Sports",
+                "title": "Interest age.",
+                "description": "Mean sense center consumer compare. City upon general home.",
+                "date": "2025-03-14",
+                "status": "Approved",
+                "approved_by": "Mrs. Patricia Martinez DDS",
+                "credit_awarded": 3
+            }
+        ]
+    },
+    {
+        "name": "Bobby Martinez",
+        "email": "michaelarice@yahoo.com",
+        "student_id": "STU011",
+        "department": "Chemistry",
+        "dob": "2002-01-17",
+        "achievements": [
+            {
+                "achievement_id": "ACH0111",
+                "type": "Hackathon",
+                "title": "Next four growth writer of.",
+                "description": "During key try image control national. Job food value fish region.",
+                "date": "2025-06-29",
+                "status": "Rejected",
+                "approved_by": "Paul Gonzales",
+                "credit_awarded": 5
+            }
+        ]
+    },
+    {
+        "name": "Travis Stewart",
+        "email": "wwaller@johnson-edwards.info",
+        "student_id": "STU012",
+        "department": "Physics",
+        "dob": "2004-08-17",
+        "achievements": [
+            {
+                "achievement_id": "ACH0121",
+                "type": "Hackathon",
+                "title": "Operation husband record.",
+                "description": "Occur its eye why. Officer either smile risk.",
+                "date": "2021-11-26",
+                "status": "Rejected",
+                "approved_by": "Sydney Rich",
+                "credit_awarded": 4
+            },
+            {
+                "achievement_id": "ACH0122",
+                "type": "Workshop",
+                "title": "Sit draw.",
+                "description": "Look relate his team. Walk themselves nation staff measure.",
+                "date": "2024-06-06",
+                "status": "Approved",
+                "approved_by": "Alan Schaefer",
+                "credit_awarded": 1
+            },
+            {
+                "achievement_id": "ACH0123",
+                "type": "Research",
+                "title": "Long board.",
+                "description": "Heavy yes mention. Congress box school. Economy condition whole doctor success performance.",
+                "date": "2025-07-12",
+                "status": "Pending",
+                "approved_by": "Gail Rangel",
+                "credit_awarded": 5
+            }
+        ]
+    },
+    {
+        "name": "Danielle Miller",
+        "email": "laurasimpson@yahoo.com",
+        "student_id": "STU013",
+        "department": "Computer Science",
+        "dob": "2006-07-29",
+        "achievements": [
+            {
+                "achievement_id": "ACH0131",
+                "type": "Internship",
+                "title": "Drug phone.",
+                "description": "Phone effort first value during fill spend. Simply after instead real.",
+                "date": "2022-06-24",
+                "status": "Rejected",
+                "approved_by": "Cynthia Howard",
+                "credit_awarded": 4
+            },
+            {
+                "achievement_id": "ACH0132",
+                "type": "Leadership",
+                "title": "Respond million decision ever politics.",
+                "description": "Candidate group true respond organization. North this send season course.",
+                "date": "2023-10-05",
+                "status": "Rejected",
+                "approved_by": "Ronald Wilson",
+                "credit_awarded": 4
+            },
+            {
+                "achievement_id": "ACH0133",
+                "type": "Hackathon",
+                "title": "Point hair social write option.",
+                "description": "War church born choose without suggest new. Agent cause hospital kitchen better identify.",
+                "date": "2025-08-28",
+                "status": "Pending",
+                "approved_by": "Rachel Smith",
+                "credit_awarded": 3
+            },
+            {
+                "achievement_id": "ACH0134",
+                "type": "Internship",
+                "title": "Realize real fast.",
+                "description": "Past strong turn friend. Avoid television newspaper letter wide. Key where list against since.",
+                "date": "2025-06-30",
+                "status": "Pending",
+                "approved_by": "Brooke Gutierrez",
+                "credit_awarded": 1
+            },
+            {
+                "achievement_id": "ACH0135",
+                "type": "Internship",
+                "title": "Kid agree hand.",
+                "description": "Anything ago system law leave. Save look subject have group. Community physical pattern adult.",
+                "date": "2024-09-22",
+                "status": "Pending",
+                "approved_by": "Anna Patterson",
+                "credit_awarded": 5
+            }
+        ]
+    },
+    {
+        "name": "Kyle Vaughn",
+        "email": "sgarcia@gmail.com",
+        "student_id": "STU014",
+        "department": "Chemistry",
+        "dob": "2001-06-17",
+        "achievements": [
+            {
+                "achievement_id": "ACH0141",
+                "type": "Hackathon",
+                "title": "Her western head consider.",
+                "description": "Difference make human peace score. Black general community take order voice modern food.",
+                "date": "2022-02-16",
+                "status": "Pending",
+                "approved_by": "Kathleen Martin",
+                "credit_awarded": 3
+            }
+        ]
+    },
+    {
+        "name": "Rebecca Lawson",
+        "email": "john90@yahoo.com",
+        "student_id": "STU015",
+        "department": "Mathematics",
+        "dob": "2000-03-12",
+        "achievements": [
+            {
+                "achievement_id": "ACH0151",
+                "type": "Workshop",
+                "title": "Stuff team smile until.",
+                "description": "Her say strong senior fine director mean.",
+                "date": "2024-01-21",
+                "status": "Pending",
+                "approved_by": "Erin Adams",
+                "credit_awarded": 4
+            },
+            {
+                "achievement_id": "ACH0152",
+                "type": "Workshop",
+                "title": "Different civil just notice air.",
+                "description": "By foot similar across five. Another who president during might manage teach.\nOpen seem of social.",
+                "date": "2022-01-29",
+                "status": "Approved",
+                "approved_by": "Lindsey Wright",
+                "credit_awarded": 4
+            },
+            {
+                "achievement_id": "ACH0153",
+                "type": "Hackathon",
+                "title": "Find perform give north.",
+                "description": "Produce performance house which fund.",
+                "date": "2025-03-29",
+                "status": "Rejected",
+                "approved_by": "David Herrera",
+                "credit_awarded": 3
+            },
+            {
+                "achievement_id": "ACH0154",
+                "type": "Internship",
+                "title": "Color success star require.",
+                "description": "Decision they born natural international career result. Reach dinner worker discussion.",
+                "date": "2023-02-11",
+                "status": "Rejected",
+                "approved_by": "Mark Arnold",
+                "credit_awarded": 3
+            }
+        ]
+    },
+    {
+        "name": "George Guerrero",
+        "email": "bbarnes@rasmussen-smith.com",
+        "student_id": "STU016",
+        "department": "Civil",
+        "dob": "2003-11-10",
+        "achievements": [
+            {
+                "achievement_id": "ACH0161",
+                "type": "Certification",
+                "title": "Become season reduce weight since.",
+                "description": "Force teach over laugh stay summer Mrs off.",
+                "date": "2024-11-26",
+                "status": "Pending",
+                "approved_by": "Cody Caldwell",
+                "credit_awarded": 1
+            },
+            {
+                "achievement_id": "ACH0162",
+                "type": "Sports",
+                "title": "View we newspaper.",
+                "description": "See language second reveal. Answer heavy mention hard picture student hear.",
+                "date": "2022-08-07",
+                "status": "Rejected",
+                "approved_by": "Eric Wilson",
+                "credit_awarded": 4
+            }
+        ]
+    },
+    {
+        "name": "Haley Avila",
+        "email": "jennifer91@lee.com",
+        "student_id": "STU017",
+        "department": "Computer Science",
+        "dob": "2003-02-01",
+        "achievements": [
+            {
+                "achievement_id": "ACH0171",
+                "type": "Certification",
+                "title": "Spring since light point effort.",
+                "description": "Hand process build. Network all teacher. Eat must than down might.",
+                "date": "2023-05-09",
+                "status": "Rejected",
+                "approved_by": "Christina Fowler",
+                "credit_awarded": 3
+            },
+            {
+                "achievement_id": "ACH0172",
+                "type": "Certification",
+                "title": "Doctor think simple only.",
+                "description": "Check memory next friend meeting type offer huge. Support stuff international rather us.",
+                "date": "2025-03-10",
+                "status": "Pending",
+                "approved_by": "Eduardo Hernandez",
+                "credit_awarded": 5
+            }
+        ]
+    },
+    {
+        "name": "Kenneth Diaz",
+        "email": "robert03@gmail.com",
+        "student_id": "STU018",
+        "department": "Civil",
+        "dob": "2004-10-01",
+        "achievements": [
+            {
+                "achievement_id": "ACH0181",
+                "type": "Workshop",
+                "title": "Support friend color.",
+                "description": "Few whether officer low threat. Role Republican way physical talk support.",
+                "date": "2025-07-12",
+                "status": "Rejected",
+                "approved_by": "Veronica Richardson",
+                "credit_awarded": 3
+            },
+            {
+                "achievement_id": "ACH0182",
+                "type": "Leadership",
+                "title": "Fear fly.",
+                "description": "Hotel only month building. Personal concern manage try.\nBring tonight hear claim paper wear.",
+                "date": "2022-05-29",
+                "status": "Rejected",
+                "approved_by": "Eric Lawrence",
+                "credit_awarded": 2
+            },
+            {
+                "achievement_id": "ACH0183",
+                "type": "Research",
+                "title": "Product account land.",
+                "description": "Other discover artist each who when.",
+                "date": "2023-07-19",
+                "status": "Approved",
+                "approved_by": "Donna Bowen",
+                "credit_awarded": 3
+            }
+        ]
+    },
+    {
+        "name": "Kayla Griffin",
+        "email": "millercraig@ward.net",
+        "student_id": "STU019",
+        "department": "Mechanical",
+        "dob": "2006-09-04",
+        "achievements": [
+            {
+                "achievement_id": "ACH0191",
+                "type": "Sports",
+                "title": "Because perform color area chair.",
+                "description": "Current ahead show. Away cover article manager others follow.",
+                "date": "2024-06-12",
+                "status": "Approved",
+                "approved_by": "Christina Jensen",
+                "credit_awarded": 2
+            },
+            {
+                "achievement_id": "ACH0192",
+                "type": "Hackathon",
+                "title": "Phone event community building.",
+                "description": "Often baby include material color speak. Expert billion meeting either thing west until.",
+                "date": "2025-01-08",
+                "status": "Approved",
+                "approved_by": "Kenneth Gutierrez",
+                "credit_awarded": 4
+            }
+        ]
+    },
+    {
+        "name": "Jacob Spencer",
+        "email": "brittanymurphy@steele-peters.com",
+        "student_id": "STU020",
+        "department": "Computer Science",
+        "dob": "2002-10-29",
+        "achievements": [
+            {
+                "achievement_id": "ACH0201",
+                "type": "Workshop",
+                "title": "Score finally fact.",
+                "description": "Some by unit security including your.\nFilm stand sometimes growth likely election company.",
+                "date": "2022-12-13",
+                "status": "Pending",
+                "approved_by": "Hector Reese",
+                "credit_awarded": 2
+            }
+        ]
+    },
+    {
+        "name": "Elizabeth Lee",
+        "email": "robertgarcia@gmail.com",
+        "student_id": "STU021",
+        "department": "Mechanical",
+        "dob": "2003-12-06",
+        "achievements": [
+            {
+                "achievement_id": "ACH0211",
+                "type": "Internship",
+                "title": "More side every.",
+                "description": "Animal bill say. Network get difference crime can right door hour.",
+                "date": "2025-01-03",
+                "status": "Approved",
+                "approved_by": "Jimmy Shelton",
+                "credit_awarded": 5
+            }
+        ]
+    },
+    {
+        "name": "Michelle Johnson",
+        "email": "dicksondon@fisher-reed.com",
+        "student_id": "STU022",
+        "department": "Civil",
+        "dob": "2001-02-21",
+        "achievements": [
+            {
+                "achievement_id": "ACH0221",
+                "type": "Hackathon",
+                "title": "New oil type quality.",
+                "description": "Plan consumer if space whose range. With size concern military summer.",
+                "date": "2021-11-06",
+                "status": "Pending",
+                "approved_by": "Natasha Miller",
+                "credit_awarded": 4
+            },
+            {
+                "achievement_id": "ACH0222",
+                "type": "Certification",
+                "title": "Second various.",
+                "description": "Buy marriage team story. Teach anything remember personal else reflect religious speech.",
+                "date": "2022-08-29",
+                "status": "Rejected",
+                "approved_by": "Justin Hayes",
+                "credit_awarded": 4
+            }
+        ]
+    },
+    {
+        "name": "Heather Morgan",
+        "email": "pwilson@hotmail.com",
+        "student_id": "STU023",
+        "department": "Mechanical",
+        "dob": "2005-11-02",
+        "achievements": [
+            {
+                "achievement_id": "ACH0231",
+                "type": "Internship",
+                "title": "Next onto letter seat.",
+                "description": "Sure knowledge dark these. Laugh against green.\nSee before home police pattern down size.",
+                "date": "2023-09-11",
+                "status": "Rejected",
+                "approved_by": "Jessica Klein",
+                "credit_awarded": 5
+            },
+            {
+                "achievement_id": "ACH0232",
+                "type": "Certification",
+                "title": "While minute professor let.",
+                "description": "Large up above personal assume court soon. Statement choice also surface especially half.",
+                "date": "2024-02-23",
+                "status": "Pending",
+                "approved_by": "Jordan Walker",
+                "credit_awarded": 3
+            },
+            {
+                "achievement_id": "ACH0233",
+                "type": "Leadership",
+                "title": "Laugh south.",
+                "description": "First all amount continue. Sell break size happy choose true stay tend.",
+                "date": "2022-05-16",
+                "status": "Approved",
+                "approved_by": "Natalie Reed",
+                "credit_awarded": 2
+            }
+        ]
+    },
+    {
+        "name": "Gregory Warren",
+        "email": "schoi@hotmail.com",
+        "student_id": "STU024",
+        "department": "Chemistry",
+        "dob": "2003-07-31",
+        "achievements": [
+            {
+                "achievement_id": "ACH0241",
+                "type": "Sports",
+                "title": "For ok.",
+                "description": "Member allow newspaper red.",
+                "date": "2022-04-15",
+                "status": "Rejected",
+                "approved_by": "Patrick Maldonado",
+                "credit_awarded": 3
+            },
+            {
+                "achievement_id": "ACH0242",
+                "type": "Research",
+                "title": "Certainly amount later expert.",
+                "description": "Hard marriage strategy focus camera wind not. Word where program.",
+                "date": "2023-01-27",
+                "status": "Approved",
+                "approved_by": "Brandon Sutton",
+                "credit_awarded": 5
+            },
+            {
+                "achievement_id": "ACH0243",
+                "type": "Workshop",
+                "title": "Daughter similar training yes ready.",
+                "description": "Enough add star civil church. Collection make because sing society. Western growth town blue.",
+                "date": "2023-06-18",
+                "status": "Approved",
+                "approved_by": "Eric Evans",
+                "credit_awarded": 4
+            }
+        ]
+    },
+    {
+        "name": "Tanner Sheppard",
+        "email": "isullivan@yahoo.com",
+        "student_id": "STU025",
+        "department": "Electronics",
+        "dob": "2001-05-30",
+        "achievements": [
+            {
+                "achievement_id": "ACH0251",
+                "type": "Research",
+                "title": "Step exactly.",
+                "description": "Garden fast green. Just before three loss quite but.",
+                "date": "2024-12-29",
+                "status": "Approved",
+                "approved_by": "Fernando Oliver",
+                "credit_awarded": 3
+            },
+            {
+                "achievement_id": "ACH0252",
+                "type": "Certification",
+                "title": "Woman impact eat by.",
+                "description": "Account fish it hundred whether capital town turn.",
+                "date": "2024-08-07",
+                "status": "Pending",
+                "approved_by": "Rebecca Hensley",
+                "credit_awarded": 2
+            },
+            {
+                "achievement_id": "ACH0253",
+                "type": "Sports",
+                "title": "Feel culture American receive.",
+                "description": "Ahead would school edge dream reality society. Actually hotel star pay. Push return name fire not.",
+                "date": "2025-03-12",
+                "status": "Rejected",
+                "approved_by": "David Martinez",
+                "credit_awarded": 4
+            },
+            {
+                "achievement_id": "ACH0254",
+                "type": "Workshop",
+                "title": "Campaign only under mouth.",
+                "description": "Individual air class support dog thing. View popular discuss already know dog born hand.",
+                "date": "2022-06-19",
+                "status": "Rejected",
+                "approved_by": "James Herrera",
+                "credit_awarded": 4
+            }
+        ]
+    },
+    {
+        "name": "Eric Vaughan",
+        "email": "jameshubbard@gmail.com",
+        "student_id": "STU026",
+        "department": "Mechanical",
+        "dob": "2000-09-15",
+        "achievements": [
+            {
+                "achievement_id": "ACH0261",
+                "type": "Sports",
+                "title": "Theory apply or read teach.",
+                "description": "Grow my view want war. Foot million cost ground.",
+                "date": "2022-05-03",
+                "status": "Pending",
+                "approved_by": "Michelle King",
+                "credit_awarded": 4
+            },
+            {
+                "achievement_id": "ACH0262",
+                "type": "Workshop",
+                "title": "Eye born modern brother between.",
+                "description": "Improve whom just thought. President agreement administration.",
+                "date": "2024-04-23",
+                "status": "Approved",
+                "approved_by": "Zachary Gardner",
+                "credit_awarded": 1
+            },
+            {
+                "achievement_id": "ACH0263",
+                "type": "Leadership",
+                "title": "Leader media book very across.",
+                "description": "Project real guy law. Interesting card guess avoid.",
+                "date": "2021-10-29",
+                "status": "Rejected",
+                "approved_by": "Ana Weaver",
+                "credit_awarded": 5
+            },
+            {
+                "achievement_id": "ACH0264",
+                "type": "Hackathon",
+                "title": "Away parent much inside whose.",
+                "description": "Project character kitchen firm position civil. Cell thought past reason manager one blue.",
+                "date": "2023-03-31",
+                "status": "Pending",
+                "approved_by": "Rebekah Hart",
+                "credit_awarded": 4
+            }
+        ]
+    },
+    {
+        "name": "Desiree Kirby",
+        "email": "lbrown@gmail.com",
+        "student_id": "STU027",
+        "department": "Chemistry",
+        "dob": "2000-12-18",
+        "achievements": [
+            {
+                "achievement_id": "ACH0271",
+                "type": "Research",
+                "title": "Personal sister be.",
+                "description": "Note represent bad mouth door door stop. Drive risk similar data.",
+                "date": "2024-04-23",
+                "status": "Approved",
+                "approved_by": "Michelle Thomas",
+                "credit_awarded": 5
+            },
+            {
+                "achievement_id": "ACH0272",
+                "type": "Certification",
+                "title": "Per strategy believe citizen.",
+                "description": "Discuss president lot big. Suffer kid left effort.",
+                "date": "2022-02-10",
+                "status": "Approved",
+                "approved_by": "Ana Ferrell",
+                "credit_awarded": 5
+            },
+            {
+                "achievement_id": "ACH0273",
+                "type": "Leadership",
+                "title": "Clearly draw lead.",
+                "description": "Want start turn individual there Congress. Successful likely better effort important hour great.",
+                "date": "2023-09-23",
+                "status": "Rejected",
+                "approved_by": "Adam Austin",
+                "credit_awarded": 5
+            },
+            {
+                "achievement_id": "ACH0274",
+                "type": "Workshop",
+                "title": "State season effort.",
+                "description": "Camera PM reveal will discussion pattern. Bring watch magazine political never decide any.",
+                "date": "2021-09-14",
+                "status": "Pending",
+                "approved_by": "Michael Diaz",
+                "credit_awarded": 5
+            },
+            {
+                "achievement_id": "ACH0275",
+                "type": "Hackathon",
+                "title": "Public plant meeting.",
+                "description": "Prepare rock without. While red identify single. Team plan community push.",
+                "date": "2023-03-25",
+                "status": "Pending",
+                "approved_by": "Christina Woodward",
+                "credit_awarded": 5
+            }
+        ]
+    },
+    {
+        "name": "Bailey Rodgers",
+        "email": "john80@gmail.com",
+        "student_id": "STU028",
+        "department": "Civil",
+        "dob": "2006-12-21",
+        "achievements": [
+            {
+                "achievement_id": "ACH0281",
+                "type": "Workshop",
+                "title": "Room one brother reason.",
+                "description": "Trouble need might specific. Low real reach win military.",
+                "date": "2022-07-06",
+                "status": "Approved",
+                "approved_by": "William Love",
+                "credit_awarded": 3
+            }
+        ]
+    },
+    {
+        "name": "John Walker",
+        "email": "petersonstephen@ferguson.com",
+        "student_id": "STU029",
+        "department": "Civil",
+        "dob": "2001-09-28",
+        "achievements": [
+            {
+                "achievement_id": "ACH0291",
+                "type": "Certification",
+                "title": "Production scientist federal themselves.",
+                "description": "Wonder money together price return herself like night.",
+                "date": "2023-01-23",
+                "status": "Pending",
+                "approved_by": "Jesse Bennett",
+                "credit_awarded": 1
+            },
+            {
+                "achievement_id": "ACH0292",
+                "type": "Leadership",
+                "title": "Resource since because reveal part.",
+                "description": "Loss I consider year everyone force how. Order seat impact market.",
+                "date": "2022-04-05",
+                "status": "Approved",
+                "approved_by": "Charles Carter",
+                "credit_awarded": 5
+            }
+        ]
+    },
+    {
+        "name": "Ryan Jones",
+        "email": "cruzjanet@howard.org",
+        "student_id": "STU030",
+        "department": "Electrical",
+        "dob": "2002-12-31",
+        "achievements": [
+            {
+                "achievement_id": "ACH0301",
+                "type": "Certification",
+                "title": "Language own clear explain worker.",
+                "description": "Culture senior however ready.",
+                "date": "2025-03-30",
+                "status": "Pending",
+                "approved_by": "Kathleen Owens",
+                "credit_awarded": 5
+            }
+        ]
+    },
+    {
+        "name": "Paula Brown",
+        "email": "hayesregina@woods.net",
+        "student_id": "STU031",
+        "department": "Civil",
+        "dob": "2005-04-25",
+        "achievements": [
+            {
+                "achievement_id": "ACH0311",
+                "type": "Internship",
+                "title": "Kitchen size small live turn.",
+                "description": "Provide begin teacher full by rise big. Understand clear top white cold begin.",
+                "date": "2023-07-22",
+                "status": "Approved",
+                "approved_by": "Kenneth Perez",
+                "credit_awarded": 1
+            },
+            {
+                "achievement_id": "ACH0312",
+                "type": "Workshop",
+                "title": "Else official news their.",
+                "description": "Score field information size live within page. Cause long share art author.",
+                "date": "2023-03-08",
+                "status": "Pending",
+                "approved_by": "Cory Webster DDS",
+                "credit_awarded": 2
+            },
+            {
+                "achievement_id": "ACH0313",
+                "type": "Research",
+                "title": "Particular sort participant rule.",
+                "description": "State civil positive. Nation understand phone population.",
+                "date": "2025-06-11",
+                "status": "Rejected",
+                "approved_by": "Natasha Hale DDS",
+                "credit_awarded": 4
+            },
+            {
+                "achievement_id": "ACH0314",
+                "type": "Workshop",
+                "title": "Somebody least Democrat.",
+                "description": "Task travel keep father. Scientist toward senior way by. Quickly single modern drug voice throw.",
+                "date": "2021-09-24",
+                "status": "Approved",
+                "approved_by": "Sarah Arnold",
+                "credit_awarded": 3
+            },
+            {
+                "achievement_id": "ACH0315",
+                "type": "Research",
+                "title": "Note my unit.",
+                "description": "Guess agent sense within. Project south trial test single address box Republican.",
+                "date": "2022-12-03",
+                "status": "Rejected",
+                "approved_by": "Stacy Cox",
+                "credit_awarded": 5
+            }
+        ]
+    },
+    {
+        "name": "Lori Morse",
+        "email": "carsonkenneth@jacobs.org",
+        "student_id": "STU032",
+        "department": "Chemistry",
+        "dob": "2000-07-21",
+        "achievements": [
+            {
+                "achievement_id": "ACH0321",
+                "type": "Hackathon",
+                "title": "Budget remain.",
+                "description": "Save person some well.\nChoice large operation analysis. Among seem phone institution stuff.",
+                "date": "2024-03-02",
+                "status": "Approved",
+                "approved_by": "Kyle Torres",
+                "credit_awarded": 2
+            },
+            {
+                "achievement_id": "ACH0322",
+                "type": "Workshop",
+                "title": "Write near.",
+                "description": "Or policy soldier business site serious.",
+                "date": "2022-02-27",
+                "status": "Rejected",
+                "approved_by": "James Rodriguez",
+                "credit_awarded": 5
+            },
+            {
+                "achievement_id": "ACH0323",
+                "type": "Research",
+                "title": "Ready real yeah.",
+                "description": "Military appear region town learn push. Position wide population age popular.",
+                "date": "2023-10-27",
+                "status": "Pending",
+                "approved_by": "Juan Davis",
+                "credit_awarded": 2
+            }
+        ]
+    },
+    {
+        "name": "Michael Branch",
+        "email": "mpowell@gmail.com",
+        "student_id": "STU033",
+        "department": "Mechanical",
+        "dob": "2002-11-23",
+        "achievements": [
+            {
+                "achievement_id": "ACH0331",
+                "type": "Certification",
+                "title": "Their room rest mean.",
+                "description": "Care run assume right night. Learn none since officer.",
+                "date": "2025-01-30",
+                "status": "Rejected",
+                "approved_by": "Maria Pope",
+                "credit_awarded": 4
+            },
+            {
+                "achievement_id": "ACH0332",
+                "type": "Sports",
+                "title": "Trip husband time pattern.",
+                "description": "Budget huge light if body. Capital wall case view majority. Last contain third produce fund former.",
+                "date": "2022-11-25",
+                "status": "Pending",
+                "approved_by": "Alicia Hill",
+                "credit_awarded": 1
+            }
+        ]
+    },
+    {
+        "name": "John Rowland",
+        "email": "phillipssierra@douglas.biz",
+        "student_id": "STU034",
+        "department": "Mechanical",
+        "dob": "2006-12-10",
+        "achievements": [
+            {
+                "achievement_id": "ACH0341",
+                "type": "Leadership",
+                "title": "Know finish where phone ever.",
+                "description": "Whatever all pay western in series offer. Blue hold happy later answer.",
+                "date": "2023-10-23",
+                "status": "Pending",
+                "approved_by": "William Arellano",
+                "credit_awarded": 3
+            },
+            {
+                "achievement_id": "ACH0342",
+                "type": "Hackathon",
+                "title": "Audience stand image.",
+                "description": "Agent article become reveal morning. Me catch nation perhaps.",
+                "date": "2023-11-19",
+                "status": "Rejected",
+                "approved_by": "Heather James",
+                "credit_awarded": 3
+            },
+            {
+                "achievement_id": "ACH0343",
+                "type": "Leadership",
+                "title": "Not back actually economic glass.",
+                "description": "Trial along little arrive house.",
+                "date": "2024-03-26",
+                "status": "Pending",
+                "approved_by": "Christine Dean",
+                "credit_awarded": 5
+            }
+        ]
+    },
+    {
+        "name": "Steven Wallace",
+        "email": "harrisstefanie@kane.com",
+        "student_id": "STU035",
+        "department": "Mathematics",
+        "dob": "2002-07-29",
+        "achievements": [
+            {
+                "achievement_id": "ACH0351",
+                "type": "Workshop",
+                "title": "Charge enter.",
+                "description": "Along good once red page. Modern region spring within recently drive piece.",
+                "date": "2021-12-04",
+                "status": "Approved",
+                "approved_by": "Jeremy Bradley",
+                "credit_awarded": 3
+            },
+            {
+                "achievement_id": "ACH0352",
+                "type": "Workshop",
+                "title": "Shake thought born meet.",
+                "description": "Investment little spend no. Indicate true relate or say.",
+                "date": "2025-05-22",
+                "status": "Approved",
+                "approved_by": "Stephen Anderson",
+                "credit_awarded": 3
+            },
+            {
+                "achievement_id": "ACH0353",
+                "type": "Research",
+                "title": "Increase family data.",
+                "description": "Lay purpose evening control site. Test often college campaign. Heart mind west control evidence.",
+                "date": "2023-10-21",
+                "status": "Pending",
+                "approved_by": "Jamie Crane",
+                "credit_awarded": 4
+            },
+            {
+                "achievement_id": "ACH0354",
+                "type": "Workshop",
+                "title": "Piece pull cost lead white.",
+                "description": "Crime forward sing artist. Some religious owner white.",
+                "date": "2022-11-04",
+                "status": "Approved",
+                "approved_by": "Melissa Day",
+                "credit_awarded": 1
+            },
+            {
+                "achievement_id": "ACH0355",
+                "type": "Workshop",
+                "title": "Yourself value.",
+                "description": "Suffer face people Mr sound.",
+                "date": "2025-01-17",
+                "status": "Approved",
+                "approved_by": "Elizabeth Ellis",
+                "credit_awarded": 2
+            }
+        ]
+    },
+    {
+        "name": "Edward Caldwell",
+        "email": "adamlee@hotmail.com",
+        "student_id": "STU036",
+        "department": "Civil",
+        "dob": "2007-04-23",
+        "achievements": [
+            {
+                "achievement_id": "ACH0361",
+                "type": "Sports",
+                "title": "Leave city professional.",
+                "description": "Money professor decision miss paper begin and. Future whom serious other yet doctor list.",
+                "date": "2023-11-01",
+                "status": "Pending",
+                "approved_by": "Colleen Benson",
+                "credit_awarded": 4
+            },
+            {
+                "achievement_id": "ACH0362",
+                "type": "Hackathon",
+                "title": "Possible military agency soldier.",
+                "description": "Parent cell administration score. Group them so approach hope.",
+                "date": "2024-05-30",
+                "status": "Pending",
+                "approved_by": "Victoria Bennett",
+                "credit_awarded": 2
+            },
+            {
+                "achievement_id": "ACH0363",
+                "type": "Leadership",
+                "title": "Apply realize.",
+                "description": "Only could apply join wide possible design.",
+                "date": "2025-04-05",
+                "status": "Pending",
+                "approved_by": "Amanda Moyer",
+                "credit_awarded": 3
+            }
+        ]
+    },
+    {
+        "name": "Ashley Hunt",
+        "email": "pamela35@coleman-jones.org",
+        "student_id": "STU037",
+        "department": "Electronics",
+        "dob": "2007-04-13",
+        "achievements": [
+            {
+                "achievement_id": "ACH0371",
+                "type": "Hackathon",
+                "title": "History floor represent be.",
+                "description": "Red paper response agent available. Will staff he play.\nFirst final evening same response.",
+                "date": "2024-09-06",
+                "status": "Rejected",
+                "approved_by": "Kimberly Parrish",
+                "credit_awarded": 5
+            },
+            {
+                "achievement_id": "ACH0372",
+                "type": "Workshop",
+                "title": "Write north.",
+                "description": "Couple cost fish red apply while director few. Effect certain statement control race.",
+                "date": "2024-10-31",
+                "status": "Approved",
+                "approved_by": "Katherine Alvarez",
+                "credit_awarded": 3
+            }
+        ]
+    },
+    {
+        "name": "Randall Lin",
+        "email": "nicholas51@lee.com",
+        "student_id": "STU038",
+        "department": "Electronics",
+        "dob": "2004-05-30",
+        "achievements": [
+            {
+                "achievement_id": "ACH0381",
+                "type": "Leadership",
+                "title": "Any low.",
+                "description": "Could identify student while energy little. Fear else clear safe hospital.",
+                "date": "2025-01-05",
+                "status": "Pending",
+                "approved_by": "Emily Bailey",
+                "credit_awarded": 3
+            }
+        ]
+    },
+    {
+        "name": "Richard Cortez",
+        "email": "toddhawkins@ramos.info",
+        "student_id": "STU039",
+        "department": "Computer Science",
+        "dob": "2000-11-20",
+        "achievements": [
+            {
+                "achievement_id": "ACH0391",
+                "type": "Hackathon",
+                "title": "Impact tell fine push total.",
+                "description": "Adult thus it play century organization dark. Large interview nearly across rock police here.",
+                "date": "2023-11-20",
+                "status": "Pending",
+                "approved_by": "Andrew Quinn",
+                "credit_awarded": 5
+            },
+            {
+                "achievement_id": "ACH0392",
+                "type": "Leadership",
+                "title": "Win strategy role allow.",
+                "description": "Its loss major after.",
+                "date": "2025-04-24",
+                "status": "Rejected",
+                "approved_by": "Brian Hunter",
+                "credit_awarded": 1
+            },
+            {
+                "achievement_id": "ACH0393",
+                "type": "Sports",
+                "title": "Choose eight sound.",
+                "description": "The wear table what.\nSouth mission lead reflect quality. Stage force describe.",
+                "date": "2021-09-30",
+                "status": "Rejected",
+                "approved_by": "Kathryn Stanley",
+                "credit_awarded": 5
+            },
+            {
+                "achievement_id": "ACH0394",
+                "type": "Research",
+                "title": "Road within trial human.",
+                "description": "Spend letter some news really. Season inside challenge. Pay fire turn surface race himself college.",
+                "date": "2023-06-27",
+                "status": "Rejected",
+                "approved_by": "Meredith Li",
+                "credit_awarded": 1
+            }
+        ]
+    },
+    {
+        "name": "Ana Arnold",
+        "email": "freemanmichael@yahoo.com",
+        "student_id": "STU040",
+        "department": "Chemistry",
+        "dob": "2003-01-21",
+        "achievements": [
+            {
+                "achievement_id": "ACH0401",
+                "type": "Hackathon",
+                "title": "No rest plan citizen.",
+                "description": "Hope hair seven social bring. Every certainly local summer. Mother partner similar brother.",
+                "date": "2024-08-18",
+                "status": "Rejected",
+                "approved_by": "Tina Martinez",
+                "credit_awarded": 3
+            }
+        ]
+    },
+    {
+        "name": "Madison Brown",
+        "email": "richardsonwendy@yahoo.com",
+        "student_id": "STU041",
+        "department": "Mechanical",
+        "dob": "2003-10-24",
+        "achievements": [
+            {
+                "achievement_id": "ACH0411",
+                "type": "Research",
+                "title": "Old grow box.",
+                "description": "Rate morning sell political apply. Participant interview fall experience however.",
+                "date": "2025-05-17",
+                "status": "Pending",
+                "approved_by": "Crystal Black",
+                "credit_awarded": 1
+            }
+        ]
+    },
+    {
+        "name": "Holly Long",
+        "email": "jameslori@hayes.biz",
+        "student_id": "STU042",
+        "department": "Electronics",
+        "dob": "2002-04-13",
+        "achievements": [
+            {
+                "achievement_id": "ACH0421",
+                "type": "Workshop",
+                "title": "Anyone every hotel scientist.",
+                "description": "Here draw politics level financial. Single affect art gas movie.",
+                "date": "2025-02-16",
+                "status": "Pending",
+                "approved_by": "Stephen Gross DDS",
+                "credit_awarded": 3
+            },
+            {
+                "achievement_id": "ACH0422",
+                "type": "Hackathon",
+                "title": "Outside Democrat near.",
+                "description": "Certainly result six again second read they. Tell without who soon seat. Hand live always price a.",
+                "date": "2021-11-06",
+                "status": "Approved",
+                "approved_by": "Peter Moore",
+                "credit_awarded": 3
+            }
+        ]
+    },
+    {
+        "name": "Scott Mcguire",
+        "email": "hannah98@hotmail.com",
+        "student_id": "STU043",
+        "department": "Chemistry",
+        "dob": "2003-10-04",
+        "achievements": [
+            {
+                "achievement_id": "ACH0431",
+                "type": "Leadership",
+                "title": "Natural especially window from.",
+                "description": "Want citizen enter nice system. Baby sort new budget create. At answer cost skill.",
+                "date": "2024-05-29",
+                "status": "Rejected",
+                "approved_by": "Deborah Murillo",
+                "credit_awarded": 5
+            }
+        ]
+    },
+    {
+        "name": "William Mullen",
+        "email": "bruce11@white.info",
+        "student_id": "STU044",
+        "department": "Electrical",
+        "dob": "2005-01-02",
+        "achievements": [
+            {
+                "achievement_id": "ACH0441",
+                "type": "Workshop",
+                "title": "When money produce painting.",
+                "description": "Debate drug his mouth. Claim strategy analysis line by product. Mean build center reality.",
+                "date": "2021-12-22",
+                "status": "Pending",
+                "approved_by": "Cynthia Cochran",
+                "credit_awarded": 4
+            }
+        ]
+    },
+    {
+        "name": "Laura Valentine",
+        "email": "thomas72@yahoo.com",
+        "student_id": "STU045",
+        "department": "Electronics",
+        "dob": "2006-08-25",
+        "achievements": [
+            {
+                "achievement_id": "ACH0451",
+                "type": "Certification",
+                "title": "Mind social which.",
+                "description": "Choose realize because fire do decision. Act middle out black strong.\nChair in leave avoid share.",
+                "date": "2023-12-13",
+                "status": "Approved",
+                "approved_by": "Paul Nelson",
+                "credit_awarded": 5
+            },
+            {
+                "achievement_id": "ACH0452",
+                "type": "Hackathon",
+                "title": "Rock these though.",
+                "description": "Country with simply light former card quite laugh. Do future down between identify bill.",
+                "date": "2023-02-24",
+                "status": "Rejected",
+                "approved_by": "Thomas Murphy",
+                "credit_awarded": 3
+            },
+            {
+                "achievement_id": "ACH0453",
+                "type": "Certification",
+                "title": "Why which technology bed.",
+                "description": "Huge foreign which feel no. Sell visit political than sister authority.",
+                "date": "2024-01-09",
+                "status": "Rejected",
+                "approved_by": "Victoria Castillo",
+                "credit_awarded": 1
+            },
+            {
+                "achievement_id": "ACH0454",
+                "type": "Research",
+                "title": "Fly reduce national including.",
+                "description": "Source idea professor. Good left occur past response hotel international.",
+                "date": "2023-09-14",
+                "status": "Rejected",
+                "approved_by": "Steven Campos",
+                "credit_awarded": 4
+            },
+            {
+                "achievement_id": "ACH0455",
+                "type": "Sports",
+                "title": "Here assume difficult road.",
+                "description": "Morning someone lawyer too smile guy situation. Shoulder people suggest back several.",
+                "date": "2024-01-01",
+                "status": "Approved",
+                "approved_by": "Nicholas Torres",
+                "credit_awarded": 1
+            }
+        ]
+    },
+    {
+        "name": "Bryan Cruz",
+        "email": "susan52@gmail.com",
+        "student_id": "STU046",
+        "department": "Electrical",
+        "dob": "2000-06-02",
+        "achievements": [
+            {
+                "achievement_id": "ACH0461",
+                "type": "Certification",
+                "title": "Listen half high.",
+                "description": "Develop move process. Bag because catch activity forget consider.",
+                "date": "2022-02-23",
+                "status": "Rejected",
+                "approved_by": "Robin Hansen",
+                "credit_awarded": 3
+            },
+            {
+                "achievement_id": "ACH0462",
+                "type": "Internship",
+                "title": "Ready country section serve.",
+                "description": "Deal structure property speech. Computer easy window well.",
+                "date": "2025-04-15",
+                "status": "Rejected",
+                "approved_by": "James Wolfe",
+                "credit_awarded": 1
+            }
+        ]
+    },
+    {
+        "name": "Nancy Cooper",
+        "email": "sheila42@yahoo.com",
+        "student_id": "STU047",
+        "department": "Physics",
+        "dob": "2002-07-02",
+        "achievements": [
+            {
+                "achievement_id": "ACH0471",
+                "type": "Certification",
+                "title": "Country yes prove lawyer movie.",
+                "description": "Available nor in life.\nSon bring sense parent.",
+                "date": "2023-07-27",
+                "status": "Pending",
+                "approved_by": "Charles Anderson",
+                "credit_awarded": 1
+            },
+            {
+                "achievement_id": "ACH0472",
+                "type": "Workshop",
+                "title": "Control alone painting.",
+                "description": "Teach life sit leave next movie resource. Rule American cell tell fight.",
+                "date": "2024-07-18",
+                "status": "Pending",
+                "approved_by": "Harold Johnson",
+                "credit_awarded": 2
+            },
+            {
+                "achievement_id": "ACH0473",
+                "type": "Hackathon",
+                "title": "Else only continue talk discover.",
+                "description": "Power to property our.",
+                "date": "2024-09-27",
+                "status": "Approved",
+                "approved_by": "Teresa Ruiz",
+                "credit_awarded": 3
+            },
+            {
+                "achievement_id": "ACH0474",
+                "type": "Sports",
+                "title": "Likely subject police.",
+                "description": "Seem out ask table leader young moment. Room front lead.",
+                "date": "2022-07-22",
+                "status": "Approved",
+                "approved_by": "Matthew Guzman",
+                "credit_awarded": 5
+            }
+        ]
+    },
+    {
+        "name": "Nicholas Leach",
+        "email": "sarah05@nunez.com",
+        "student_id": "STU048",
+        "department": "Physics",
+        "dob": "2005-09-07",
+        "achievements": [
+            {
+                "achievement_id": "ACH0481",
+                "type": "Research",
+                "title": "Parent wife writer face.",
+                "description": "Month war my loss peace dinner. Interesting camera rate hotel expert.",
+                "date": "2025-04-17",
+                "status": "Pending",
+                "approved_by": "Kristen Bowman",
+                "credit_awarded": 1
+            },
+            {
+                "achievement_id": "ACH0482",
+                "type": "Internship",
+                "title": "With film assume economic or.",
+                "description": "Father wind when article. Deep wrong ability old reality. Myself magazine question how how water.",
+                "date": "2022-10-12",
+                "status": "Rejected",
+                "approved_by": "Brandon Hall",
+                "credit_awarded": 2
+            },
+            {
+                "achievement_id": "ACH0483",
+                "type": "Sports",
+                "title": "Employee let.",
+                "description": "Company while watch stock occur. Speech smile fly. Current quickly skill treat sell too.",
+                "date": "2022-02-08",
+                "status": "Approved",
+                "approved_by": "Mr. Eugene Young MD",
+                "credit_awarded": 4
+            },
+            {
+                "achievement_id": "ACH0484",
+                "type": "Hackathon",
+                "title": "Do water other me.",
+                "description": "World open campaign. Remember ago share. Your drive do say.",
+                "date": "2021-10-05",
+                "status": "Rejected",
+                "approved_by": "Holly Walker",
+                "credit_awarded": 2
+            }
+        ]
+    },
+    {
+        "name": "Erica Myers",
+        "email": "anna80@young.com",
+        "student_id": "STU049",
+        "department": "Physics",
+        "dob": "2003-06-24",
+        "achievements": [
+            {
+                "achievement_id": "ACH0491",
+                "type": "Research",
+                "title": "Standard compare section.",
+                "description": "Front network wait teach economy couple. Course fine black accept.",
+                "date": "2022-03-29",
+                "status": "Pending",
+                "approved_by": "Tracy Bernard",
+                "credit_awarded": 3
+            },
+            {
+                "achievement_id": "ACH0492",
+                "type": "Certification",
+                "title": "According available with.",
+                "description": "Wear unit whole everybody. Main evening news radio option discover rule.",
+                "date": "2022-08-16",
+                "status": "Rejected",
+                "approved_by": "Michael Hayes",
+                "credit_awarded": 2
+            },
+            {
+                "achievement_id": "ACH0493",
+                "type": "Leadership",
+                "title": "When buy.",
+                "description": "Determine community response. Myself star our create.",
+                "date": "2023-07-02",
+                "status": "Rejected",
+                "approved_by": "Nicole Richardson",
+                "credit_awarded": 4
+            },
+            {
+                "achievement_id": "ACH0494",
+                "type": "Certification",
+                "title": "Step move kid.",
+                "description": "Couple benefit position. Consumer baby two create. Drug popular half really.",
+                "date": "2022-11-17",
+                "status": "Approved",
+                "approved_by": "Brenda Francis",
+                "credit_awarded": 1
+            }
+        ]
+    },
+    {
+        "name": "Zachary Waller",
+        "email": "kmcfarland@gmail.com",
+        "student_id": "STU050",
+        "department": "Computer Science",
+        "dob": "2000-03-07",
+        "achievements": [
+            {
+                "achievement_id": "ACH0501",
+                "type": "Internship",
+                "title": "Than us picture.",
+                "description": "Far upon never financial soldier say operation. Last tend war.",
+                "date": "2025-03-18",
+                "status": "Rejected",
+                "approved_by": "Ronald Smith",
+                "credit_awarded": 5
+            },
+            {
+                "achievement_id": "ACH0502",
+                "type": "Leadership",
+                "title": "Artist ago story buy.",
+                "description": "Management audience carry blood. Pick these finally prepare.",
+                "date": "2025-08-31",
+                "status": "Pending",
+                "approved_by": "Melissa Fernandez",
+                "credit_awarded": 1
+            },
+            {
+                "achievement_id": "ACH0503",
+                "type": "Sports",
+                "title": "Industry party that benefit.",
+                "description": "Finish music career. Would four thought cut almost.",
+                "date": "2022-10-31",
+                "status": "Approved",
+                "approved_by": "Sarah Wood",
+                "credit_awarded": 3
+            }
+        ]
+    },
+    {
+        "name": "Amy Carter",
+        "email": "nreid@maldonado-douglas.org",
+        "student_id": "STU051",
+        "department": "Electronics",
+        "dob": "2004-10-12",
+        "achievements": [
+            {
+                "achievement_id": "ACH0511",
+                "type": "Hackathon",
+                "title": "Record entire clearly late early.",
+                "description": "Weight station exactly avoid American write kind. Little that major strong.",
+                "date": "2023-04-26",
+                "status": "Approved",
+                "approved_by": "Paige Keller",
+                "credit_awarded": 5
+            },
+            {
+                "achievement_id": "ACH0512",
+                "type": "Certification",
+                "title": "Decade himself break staff.",
+                "description": "Everybody word risk present. American forward possible along discover.",
+                "date": "2025-09-04",
+                "status": "Pending",
+                "approved_by": "Darlene Campbell",
+                "credit_awarded": 2
+            },
+            {
+                "achievement_id": "ACH0513",
+                "type": "Leadership",
+                "title": "Old economy nor.",
+                "description": "Require fall these scientist capital available water.",
+                "date": "2025-08-07",
+                "status": "Rejected",
+                "approved_by": "Duane Frazier",
+                "credit_awarded": 2
+            },
+            {
+                "achievement_id": "ACH0514",
+                "type": "Leadership",
+                "title": "Rich sport whether cause.",
+                "description": "Lead west clear much summer. Question kind adult floor oil enter.",
+                "date": "2025-05-01",
+                "status": "Pending",
+                "approved_by": "Jennifer Charles",
+                "credit_awarded": 1
+            },
+            {
+                "achievement_id": "ACH0515",
+                "type": "Internship",
+                "title": "Tree investment free.",
+                "description": "Week news ball. Air peace relationship PM.",
+                "date": "2022-11-01",
+                "status": "Rejected",
+                "approved_by": "Stephanie Collins",
+                "credit_awarded": 3
+            }
+        ]
+    },
+    {
+        "name": "Andrew White",
+        "email": "htucker@norton-schmidt.org",
+        "student_id": "STU052",
+        "department": "Physics",
+        "dob": "2002-03-25",
+        "achievements": [
+            {
+                "achievement_id": "ACH0521",
+                "type": "Leadership",
+                "title": "Close participant radio direction.",
+                "description": "Else explain myself military still. Item kitchen wear whatever. Specific Democrat source.",
+                "date": "2024-06-19",
+                "status": "Rejected",
+                "approved_by": "Amy Kelley MD",
+                "credit_awarded": 5
+            },
+            {
+                "achievement_id": "ACH0522",
+                "type": "Workshop",
+                "title": "Situation great build sell policy.",
+                "description": "Music its available positive management. Entire case participant concern treatment because.",
+                "date": "2023-06-03",
+                "status": "Pending",
+                "approved_by": "Peter Romero",
+                "credit_awarded": 2
+            }
+        ]
+    },
+    {
+        "name": "Jon Hess",
+        "email": "lesliekelley@yahoo.com",
+        "student_id": "STU053",
+        "department": "Computer Science",
+        "dob": "2004-01-18",
+        "achievements": [
+            {
+                "achievement_id": "ACH0531",
+                "type": "Workshop",
+                "title": "Certainly police learn.",
+                "description": "Lot boy win method.",
+                "date": "2022-05-09",
+                "status": "Rejected",
+                "approved_by": "Taylor Myers",
+                "credit_awarded": 1
+            },
+            {
+                "achievement_id": "ACH0532",
+                "type": "Hackathon",
+                "title": "Discover forward.",
+                "description": "Rise property wind color building work. Again maybe produce ability.",
+                "date": "2023-04-06",
+                "status": "Approved",
+                "approved_by": "Breanna Hampton",
+                "credit_awarded": 5
+            },
+            {
+                "achievement_id": "ACH0533",
+                "type": "Sports",
+                "title": "American ago less place today.",
+                "description": "Threat space impact first. Defense thus husband single.",
+                "date": "2025-08-19",
+                "status": "Pending",
+                "approved_by": "Derek Floyd",
+                "credit_awarded": 1
+            }
+        ]
+    },
+    {
+        "name": "Ronald Cherry",
+        "email": "brianchen@potter.com",
+        "student_id": "STU054",
+        "department": "Electronics",
+        "dob": "2003-06-21",
+        "achievements": [
+            {
+                "achievement_id": "ACH0541",
+                "type": "Hackathon",
+                "title": "Effort bank less stock fund.",
+                "description": "School through able. Form window surface sea TV truth.",
+                "date": "2022-11-08",
+                "status": "Approved",
+                "approved_by": "Angela Johnson",
+                "credit_awarded": 3
+            }
+        ]
+    },
+    {
+        "name": "Donald Shelton",
+        "email": "rlynn@hotmail.com",
+        "student_id": "STU055",
+        "department": "Electronics",
+        "dob": "2007-06-04",
+        "achievements": [
+            {
+                "achievement_id": "ACH0551",
+                "type": "Certification",
+                "title": "Perform shoulder sea beyond American.",
+                "description": "Ball here writer chance red class task. That single difficult. Agree turn force performance.",
+                "date": "2023-09-09",
+                "status": "Approved",
+                "approved_by": "Kevin Roy",
+                "credit_awarded": 5
+            },
+            {
+                "achievement_id": "ACH0552",
+                "type": "Sports",
+                "title": "Analysis hit perform commercial.",
+                "description": "Community total machine bag.",
+                "date": "2024-04-10",
+                "status": "Rejected",
+                "approved_by": "Anne Harrington",
+                "credit_awarded": 5
+            },
+            {
+                "achievement_id": "ACH0553",
+                "type": "Sports",
+                "title": "Mind green matter.",
+                "description": "Until perform least officer animal. Huge far sport those probably return thing.",
+                "date": "2024-05-29",
+                "status": "Pending",
+                "approved_by": "Fernando Williams",
+                "credit_awarded": 3
+            },
+            {
+                "achievement_id": "ACH0554",
+                "type": "Leadership",
+                "title": "Movie dream amount consumer.",
+                "description": "Follow husband worker area relate save give organization. Voice oil star speak fine me.",
+                "date": "2021-10-18",
+                "status": "Approved",
+                "approved_by": "Teresa Sanchez",
+                "credit_awarded": 5
+            },
+            {
+                "achievement_id": "ACH0555",
+                "type": "Leadership",
+                "title": "Board free she mission.",
+                "description": "Ball present second fund. Decide center arm ball.",
+                "date": "2024-02-05",
+                "status": "Pending",
+                "approved_by": "James Thomas",
+                "credit_awarded": 5
+            }
+        ]
+    },
+    {
+        "name": "Brian Mora",
+        "email": "kmckinney@yahoo.com",
+        "student_id": "STU056",
+        "department": "Electronics",
+        "dob": "2005-02-17",
+        "achievements": [
+            {
+                "achievement_id": "ACH0561",
+                "type": "Workshop",
+                "title": "Image there kitchen fast.",
+                "description": "Out later someone look. Race school partner go clearly after meet.",
+                "date": "2025-08-31",
+                "status": "Approved",
+                "approved_by": "Susan Richards",
+                "credit_awarded": 5
+            },
+            {
+                "achievement_id": "ACH0562",
+                "type": "Hackathon",
+                "title": "Officer mean common side.",
+                "description": "Consumer financial gun exactly determine strategy trip. Thank prove course.",
+                "date": "2025-06-30",
+                "status": "Approved",
+                "approved_by": "Victor Lynch",
+                "credit_awarded": 1
+            },
+            {
+                "achievement_id": "ACH0563",
+                "type": "Certification",
+                "title": "At relate director sure program.",
+                "description": "Society candidate range rule. Sport opportunity hope officer score so large.",
+                "date": "2023-05-19",
+                "status": "Pending",
+                "approved_by": "Shannon Doyle",
+                "credit_awarded": 5
+            }
+        ]
+    },
+    {
+        "name": "Kevin Miller",
+        "email": "thomasbenjamin@gmail.com",
+        "student_id": "STU057",
+        "department": "Civil",
+        "dob": "2007-07-13",
+        "achievements": [
+            {
+                "achievement_id": "ACH0571",
+                "type": "Internship",
+                "title": "Produce trade there happen.",
+                "description": "Billion both seven. For offer rock fact way large. Staff family TV area carry. Deep her picture.",
+                "date": "2021-11-05",
+                "status": "Rejected",
+                "approved_by": "Melanie Carroll",
+                "credit_awarded": 4
+            },
+            {
+                "achievement_id": "ACH0572",
+                "type": "Internship",
+                "title": "Stop expert energy thing.",
+                "description": "Continue might organization sure control. Decide somebody run main able.",
+                "date": "2025-06-24",
+                "status": "Approved",
+                "approved_by": "Angelica Jones",
+                "credit_awarded": 2
+            },
+            {
+                "achievement_id": "ACH0573",
+                "type": "Workshop",
+                "title": "Impact huge stock central.",
+                "description": "Approach official pass million determine station myself. Big spend vote challenge base.",
+                "date": "2024-09-21",
+                "status": "Rejected",
+                "approved_by": "Ryan Stanley",
+                "credit_awarded": 1
+            },
+            {
+                "achievement_id": "ACH0574",
+                "type": "Leadership",
+                "title": "Record with but arm but.",
+                "description": "Security while director report vote. Best great front wear bad bag.",
+                "date": "2023-07-20",
+                "status": "Rejected",
+                "approved_by": "Alison Parker",
+                "credit_awarded": 2
+            },
+            {
+                "achievement_id": "ACH0575",
+                "type": "Sports",
+                "title": "Around television today feeling.",
+                "description": "Run star support. Pull present leader. Capital prepare hour always call young.",
+                "date": "2022-03-31",
+                "status": "Pending",
+                "approved_by": "Robert Medina DDS",
+                "credit_awarded": 2
+            }
+        ]
+    },
+    {
+        "name": "Dr. Brenda Little MD",
+        "email": "joshuataylor@campbell-thomas.com",
+        "student_id": "STU058",
+        "department": "Electronics",
+        "dob": "2003-12-03",
+        "achievements": [
+            {
+                "achievement_id": "ACH0581",
+                "type": "Hackathon",
+                "title": "Day serve.",
+                "description": "Sure manage well it. Join without particular condition why ready yes discuss.",
+                "date": "2025-09-03",
+                "status": "Approved",
+                "approved_by": "Dr. Anthony Charles",
+                "credit_awarded": 2
+            }
+        ]
+    },
+    {
+        "name": "Andrea Ross",
+        "email": "gutierrezdavid@hotmail.com",
+        "student_id": "STU059",
+        "department": "Mathematics",
+        "dob": "2000-05-06",
+        "achievements": [
+            {
+                "achievement_id": "ACH0591",
+                "type": "Certification",
+                "title": "Believe fly put.",
+                "description": "Former information military summer former. Radio seem mission writer plan dinner laugh.",
+                "date": "2022-04-25",
+                "status": "Rejected",
+                "approved_by": "Kaitlyn Sullivan",
+                "credit_awarded": 3
+            },
+            {
+                "achievement_id": "ACH0592",
+                "type": "Research",
+                "title": "Necessary ago according.",
+                "description": "Fly success safe alone lawyer.",
+                "date": "2022-11-13",
+                "status": "Pending",
+                "approved_by": "Wendy Mejia",
+                "credit_awarded": 1
+            },
+            {
+                "achievement_id": "ACH0593",
+                "type": "Hackathon",
+                "title": "Paper conference test piece available.",
+                "description": "Range reason suddenly itself experience among car friend. West television learn peace young happy.",
+                "date": "2023-03-24",
+                "status": "Pending",
+                "approved_by": "Logan Brown",
+                "credit_awarded": 5
+            }
+        ]
+    },
+    {
+        "name": "Daniel Smith",
+        "email": "james30@guzman.com",
+        "student_id": "STU060",
+        "department": "Electronics",
+        "dob": "2003-06-23",
+        "achievements": [
+            {
+                "achievement_id": "ACH0601",
+                "type": "Workshop",
+                "title": "Form at ago just.",
+                "description": "Radio recently write fly. Power hear practice responsibility eat own.",
+                "date": "2023-03-21",
+                "status": "Approved",
+                "approved_by": "Daniel Jones",
+                "credit_awarded": 3
+            },
+            {
+                "achievement_id": "ACH0602",
+                "type": "Hackathon",
+                "title": "Growth statement.",
+                "description": "Arrive newspaper past bed job. Agency worry example point.",
+                "date": "2025-02-12",
+                "status": "Pending",
+                "approved_by": "Lauren Hunt",
+                "credit_awarded": 5
+            },
+            {
+                "achievement_id": "ACH0603",
+                "type": "Workshop",
+                "title": "Exactly crime however window ground.",
+                "description": "Leg character be bank consider determine behind. Join city once speech seat.",
+                "date": "2024-07-12",
+                "status": "Pending",
+                "approved_by": "David Bass",
+                "credit_awarded": 3
+            },
+            {
+                "achievement_id": "ACH0604",
+                "type": "Hackathon",
+                "title": "Least sound.",
+                "description": "Able power this add voice community. Eye drug enough activity partner. Opportunity power senior.",
+                "date": "2023-01-23",
+                "status": "Rejected",
+                "approved_by": "Amy Cantrell",
+                "credit_awarded": 1
+            },
+            {
+                "achievement_id": "ACH0605",
+                "type": "Workshop",
+                "title": "Size everybody.",
+                "description": "Air side number approach meeting off wish control.",
+                "date": "2024-03-02",
+                "status": "Approved",
+                "approved_by": "Donald Gardner",
+                "credit_awarded": 2
+            }
+        ]
+    },
+    {
+        "name": "Emma Mccormick",
+        "email": "anguyen@gmail.com",
+        "student_id": "STU061",
+        "department": "Civil",
+        "dob": "2004-12-14",
+        "achievements": [
+            {
+                "achievement_id": "ACH0611",
+                "type": "Internship",
+                "title": "Various prevent suggest onto.",
+                "description": "Rest work carry run radio book. Guess similar skin effort.",
+                "date": "2024-03-17",
+                "status": "Approved",
+                "approved_by": "Denise Thornton",
+                "credit_awarded": 4
+            },
+            {
+                "achievement_id": "ACH0612",
+                "type": "Workshop",
+                "title": "Some fill whatever.",
+                "description": "Adult among value movie among most past. Admit south charge way tough.",
+                "date": "2024-05-22",
+                "status": "Rejected",
+                "approved_by": "James Clark",
+                "credit_awarded": 4
+            },
+            {
+                "achievement_id": "ACH0613",
+                "type": "Hackathon",
+                "title": "Decision rich case audience.",
+                "description": "Since base as just option at available. Network scientist six read lawyer.",
+                "date": "2024-08-03",
+                "status": "Pending",
+                "approved_by": "Bob Gentry",
+                "credit_awarded": 4
+            },
+            {
+                "achievement_id": "ACH0614",
+                "type": "Internship",
+                "title": "Travel may ball.",
+                "description": "Scientist production free choose executive. Feeling go past great up. Set seem entire.",
+                "date": "2022-10-22",
+                "status": "Pending",
+                "approved_by": "Vanessa Spencer",
+                "credit_awarded": 1
+            }
+        ]
+    },
+    {
+        "name": "Darlene Warren",
+        "email": "nathan28@hotmail.com",
+        "student_id": "STU062",
+        "department": "Mechanical",
+        "dob": "2002-10-30",
+        "achievements": [
+            {
+                "achievement_id": "ACH0621",
+                "type": "Research",
+                "title": "Effort performance.",
+                "description": "Positive unit four know program. Race commercial decade nothing economic figure artist everyone.",
+                "date": "2021-12-11",
+                "status": "Approved",
+                "approved_by": "Elizabeth Gonzales",
+                "credit_awarded": 2
+            },
+            {
+                "achievement_id": "ACH0622",
+                "type": "Workshop",
+                "title": "Statement bit official south.",
+                "description": "Claim color everybody phone similar under professional. Against language decision bag.",
+                "date": "2022-10-29",
+                "status": "Pending",
+                "approved_by": "Alexandra Abbott",
+                "credit_awarded": 1
+            }
+        ]
+    },
+    {
+        "name": "Pamela Butler",
+        "email": "xbender@hotmail.com",
+        "student_id": "STU063",
+        "department": "Physics",
+        "dob": "2001-07-19",
+        "achievements": [
+            {
+                "achievement_id": "ACH0631",
+                "type": "Leadership",
+                "title": "National us down.",
+                "description": "Republican over system deep allow. Card Mr natural box energy high still.",
+                "date": "2024-04-06",
+                "status": "Rejected",
+                "approved_by": "Nicholas Scott",
+                "credit_awarded": 5
+            }
+        ]
+    },
+    {
+        "name": "Sara Chaney",
+        "email": "lorimorris@smith.com",
+        "student_id": "STU064",
+        "department": "Electronics",
+        "dob": "2005-12-23",
+        "achievements": [
+            {
+                "achievement_id": "ACH0641",
+                "type": "Certification",
+                "title": "Fill day camera.",
+                "description": "High those eat this help. Again threat yard might.",
+                "date": "2023-05-21",
+                "status": "Rejected",
+                "approved_by": "Sarah Orozco",
+                "credit_awarded": 4
+            },
+            {
+                "achievement_id": "ACH0642",
+                "type": "Leadership",
+                "title": "So a participant task trip.",
+                "description": "Free my these help personal option. Half soon deal forward carry.",
+                "date": "2023-08-14",
+                "status": "Approved",
+                "approved_by": "Charles Wilson",
+                "credit_awarded": 2
+            },
+            {
+                "achievement_id": "ACH0643",
+                "type": "Sports",
+                "title": "Safe main industry wall would.",
+                "description": "Prove expect standard economic contain. Economic create should course work manager.",
+                "date": "2024-05-08",
+                "status": "Approved",
+                "approved_by": "Denise Potter",
+                "credit_awarded": 4
+            },
+            {
+                "achievement_id": "ACH0644",
+                "type": "Research",
+                "title": "Nearly fight perform star.",
+                "description": "Building decade daughter system bad where security. Officer man difficult amount break dream.",
+                "date": "2023-12-14",
+                "status": "Pending",
+                "approved_by": "Cheryl Rodriguez",
+                "credit_awarded": 1
+            }
+        ]
+    },
+    {
+        "name": "Kathryn Hunt",
+        "email": "thomaswells@ball.com",
+        "student_id": "STU065",
+        "department": "Mechanical",
+        "dob": "2003-08-13",
+        "achievements": [
+            {
+                "achievement_id": "ACH0651",
+                "type": "Internship",
+                "title": "Bed with run impact.",
+                "description": "Already run price.",
+                "date": "2022-12-06",
+                "status": "Approved",
+                "approved_by": "Timothy Cobb",
+                "credit_awarded": 2
+            },
+            {
+                "achievement_id": "ACH0652",
+                "type": "Sports",
+                "title": "Scientist purpose expect consider open.",
+                "description": "Smile class outside discuss office yourself product. Describe fill draw back citizen thousand rich.",
+                "date": "2023-12-02",
+                "status": "Rejected",
+                "approved_by": "Ann Lin",
+                "credit_awarded": 2
+            },
+            {
+                "achievement_id": "ACH0653",
+                "type": "Sports",
+                "title": "Defense range central hear.",
+                "description": "Manager teacher drug receive impact.\nOpen task friend. Property keep many candidate draw.",
+                "date": "2021-11-13",
+                "status": "Rejected",
+                "approved_by": "Matthew Abbott",
+                "credit_awarded": 3
+            },
+            {
+                "achievement_id": "ACH0654",
+                "type": "Research",
+                "title": "Human his son.",
+                "description": "Me agree paper carry argue culture wide. Another population range four camera professional.",
+                "date": "2024-07-21",
+                "status": "Approved",
+                "approved_by": "Amy Collins",
+                "credit_awarded": 4
+            },
+            {
+                "achievement_id": "ACH0655",
+                "type": "Internship",
+                "title": "Show from woman voice.",
+                "description": "Might girl five board citizen thus. Traditional suddenly world worker minute plant about.",
+                "date": "2024-11-18",
+                "status": "Rejected",
+                "approved_by": "Keith Nelson",
+                "credit_awarded": 5
+            }
+        ]
+    },
+    {
+        "name": "Jillian Khan",
+        "email": "pamela35@yahoo.com",
+        "student_id": "STU066",
+        "department": "Chemistry",
+        "dob": "2006-06-04",
+        "achievements": [
+            {
+                "achievement_id": "ACH0661",
+                "type": "Certification",
+                "title": "Every toward town.",
+                "description": "Election of look fine sure. Red every right.",
+                "date": "2023-03-09",
+                "status": "Rejected",
+                "approved_by": "Robert Harris",
+                "credit_awarded": 4
+            },
+            {
+                "achievement_id": "ACH0662",
+                "type": "Leadership",
+                "title": "Cultural protect page race.",
+                "description": "Cup argue need whole buy. Eye maybe weight until. Morning civil big she manage.",
+                "date": "2023-01-31",
+                "status": "Pending",
+                "approved_by": "Andre Garrett",
+                "credit_awarded": 2
+            }
+        ]
+    },
+    {
+        "name": "Jacqueline Gross",
+        "email": "david61@hotmail.com",
+        "student_id": "STU067",
+        "department": "Civil",
+        "dob": "2003-07-08",
+        "achievements": [
+            {
+                "achievement_id": "ACH0671",
+                "type": "Leadership",
+                "title": "Particularly pretty.",
+                "description": "Inside to begin his off past. Improve road role himself mention minute.",
+                "date": "2024-12-01",
+                "status": "Rejected",
+                "approved_by": "Lauren Spence",
+                "credit_awarded": 5
+            }
+        ]
+    },
+    {
+        "name": "Daniel Parks",
+        "email": "millerwanda@hotmail.com",
+        "student_id": "STU068",
+        "department": "Electrical",
+        "dob": "2006-12-28",
+        "achievements": [
+            {
+                "achievement_id": "ACH0681",
+                "type": "Certification",
+                "title": "Focus by girl certainly.",
+                "description": "Third smile leave choice radio.\nThese hair buy they station head bad station. High west fast.",
+                "date": "2025-01-20",
+                "status": "Approved",
+                "approved_by": "Stephanie Diaz",
+                "credit_awarded": 4
+            },
+            {
+                "achievement_id": "ACH0682",
+                "type": "Certification",
+                "title": "Begin course federal.",
+                "description": "Growth protect increase financial suggest avoid.",
+                "date": "2024-02-17",
+                "status": "Pending",
+                "approved_by": "Shannon Smith",
+                "credit_awarded": 1
+            }
+        ]
+    },
+    {
+        "name": "Shawn Smith",
+        "email": "carloshuynh@yahoo.com",
+        "student_id": "STU069",
+        "department": "Mechanical",
+        "dob": "2005-11-29",
+        "achievements": [
+            {
+                "achievement_id": "ACH0691",
+                "type": "Certification",
+                "title": "Year stay.",
+                "description": "Imagine job require response. Specific beat new billion exist yet them.",
+                "date": "2022-06-18",
+                "status": "Approved",
+                "approved_by": "Chad Ford",
+                "credit_awarded": 1
+            },
+            {
+                "achievement_id": "ACH0692",
+                "type": "Research",
+                "title": "Certainly activity they tonight.",
+                "description": "Federal herself left sell ask special. Employee can brother end ready.",
+                "date": "2022-01-19",
+                "status": "Pending",
+                "approved_by": "Jason Evans",
+                "credit_awarded": 4
+            },
+            {
+                "achievement_id": "ACH0693",
+                "type": "Sports",
+                "title": "News treatment third door.",
+                "description": "Goal design past explain recognize forget project institution.",
+                "date": "2024-11-08",
+                "status": "Pending",
+                "approved_by": "Timothy Carpenter",
+                "credit_awarded": 5
+            },
+            {
+                "achievement_id": "ACH0694",
+                "type": "Research",
+                "title": "Turn pattern almost.",
+                "description": "Summer fine see. Station agreement expect black will not growth. Deal article continue art trade.",
+                "date": "2023-08-03",
+                "status": "Pending",
+                "approved_by": "Kathy Sloan",
+                "credit_awarded": 1
+            }
+        ]
+    },
+    {
+        "name": "Joshua Osborne",
+        "email": "annasmith@yahoo.com",
+        "student_id": "STU070",
+        "department": "Physics",
+        "dob": "2002-12-21",
+        "achievements": [
+            {
+                "achievement_id": "ACH0701",
+                "type": "Workshop",
+                "title": "Official once another.",
+                "description": "Situation when magazine. Father evidence coach security your. Health believe head lead decide.",
+                "date": "2023-06-24",
+                "status": "Pending",
+                "approved_by": "Mr. Justin Davila Jr.",
+                "credit_awarded": 2
+            },
+            {
+                "achievement_id": "ACH0702",
+                "type": "Research",
+                "title": "Allow trouble keep.",
+                "description": "Scientist series cost argue house wind. Attention night special on clear fish sing.",
+                "date": "2023-04-26",
+                "status": "Rejected",
+                "approved_by": "Stephanie Collins",
+                "credit_awarded": 1
+            },
+            {
+                "achievement_id": "ACH0703",
+                "type": "Workshop",
+                "title": "Artist necessary attention people.",
+                "description": "Series during offer although. Music when also really up capital.",
+                "date": "2021-09-27",
+                "status": "Rejected",
+                "approved_by": "Cody Hall",
+                "credit_awarded": 4
+            },
+            {
+                "achievement_id": "ACH0704",
+                "type": "Research",
+                "title": "If wish.",
+                "description": "Receive system mouth trip act side. South would film ground recognize building bad.",
+                "date": "2022-04-13",
+                "status": "Pending",
+                "approved_by": "Cassandra Newman",
+                "credit_awarded": 3
+            },
+            {
+                "achievement_id": "ACH0705",
+                "type": "Leadership",
+                "title": "Ok air.",
+                "description": "School common old production. President him everything pretty guess measure.",
+                "date": "2024-10-30",
+                "status": "Approved",
+                "approved_by": "Patricia Robertson",
+                "credit_awarded": 3
+            }
+        ]
+    },
+    {
+        "name": "Kristen Reyes",
+        "email": "jeffreyadams@yoder.com",
+        "student_id": "STU071",
+        "department": "Physics",
+        "dob": "2003-04-07",
+        "achievements": [
+            {
+                "achievement_id": "ACH0711",
+                "type": "Research",
+                "title": "Shoulder state glass even.",
+                "description": "Play expect type ground. Paper news ten dark option short vote American.",
+                "date": "2021-10-15",
+                "status": "Approved",
+                "approved_by": "Sarah Mcdaniel",
+                "credit_awarded": 2
+            },
+            {
+                "achievement_id": "ACH0712",
+                "type": "Hackathon",
+                "title": "Claim couple operation whole environment.",
+                "description": "Anything attorney simple follow. If yes her dinner.\nTreat land ahead fish space.",
+                "date": "2023-06-11",
+                "status": "Rejected",
+                "approved_by": "Hector Copeland",
+                "credit_awarded": 5
+            }
+        ]
+    },
+    {
+        "name": "Paul Clark MD",
+        "email": "robert63@weaver-henderson.net",
+        "student_id": "STU072",
+        "department": "Mechanical",
+        "dob": "2003-09-10",
+        "achievements": [
+            {
+                "achievement_id": "ACH0721",
+                "type": "Research",
+                "title": "Else their can.",
+                "description": "Operation understand goal couple program this sort. Chance agree activity member see.",
+                "date": "2022-08-20",
+                "status": "Approved",
+                "approved_by": "Gregory Nelson",
+                "credit_awarded": 4
+            }
+        ]
+    },
+    {
+        "name": "Stephanie Acosta",
+        "email": "abigailtorres@yahoo.com",
+        "student_id": "STU073",
+        "department": "Electrical",
+        "dob": "2000-10-09",
+        "achievements": [
+            {
+                "achievement_id": "ACH0731",
+                "type": "Research",
+                "title": "Fine rate a.",
+                "description": "Why great amount camera skill indeed.",
+                "date": "2023-01-07",
+                "status": "Approved",
+                "approved_by": "Mark Johnson",
+                "credit_awarded": 5
+            },
+            {
+                "achievement_id": "ACH0732",
+                "type": "Leadership",
+                "title": "Affect above democratic.",
+                "description": "Sport something to fill. Risk fact human American.\nWhen another off last increase time book just.",
+                "date": "2024-07-15",
+                "status": "Pending",
+                "approved_by": "John Durham",
+                "credit_awarded": 5
+            }
+        ]
+    },
+    {
+        "name": "Johnny Compton",
+        "email": "joshuawallace@garcia.com",
+        "student_id": "STU074",
+        "department": "Electrical",
+        "dob": "2002-05-03",
+        "achievements": [
+            {
+                "achievement_id": "ACH0741",
+                "type": "Hackathon",
+                "title": "Article sign thus evening.",
+                "description": "Region blood image father audience way him. Indeed determine food.\nWhom also large artist message.",
+                "date": "2022-06-25",
+                "status": "Rejected",
+                "approved_by": "Christopher Nixon",
+                "credit_awarded": 4
+            },
+            {
+                "achievement_id": "ACH0742",
+                "type": "Certification",
+                "title": "Lawyer effort important.",
+                "description": "Give note three. Blue prepare recently tonight particular.",
+                "date": "2022-05-26",
+                "status": "Rejected",
+                "approved_by": "Nicole Williams",
+                "credit_awarded": 2
+            },
+            {
+                "achievement_id": "ACH0743",
+                "type": "Internship",
+                "title": "Already away a president left.",
+                "description": "Away agree everybody store. Voice necessary general. Might process artist artist.",
+                "date": "2022-11-22",
+                "status": "Rejected",
+                "approved_by": "Kathleen Anderson",
+                "credit_awarded": 4
+            },
+            {
+                "achievement_id": "ACH0744",
+                "type": "Research",
+                "title": "Southern even option music inside.",
+                "description": "Program sit like second mention career. Similar provide similar.",
+                "date": "2021-11-12",
+                "status": "Approved",
+                "approved_by": "Caitlin George",
+                "credit_awarded": 5
+            },
+            {
+                "achievement_id": "ACH0745",
+                "type": "Leadership",
+                "title": "Affect group.",
+                "description": "Control rich because Republican account night former. She another computer note parent nearly.",
+                "date": "2023-07-04",
+                "status": "Rejected",
+                "approved_by": "Ryan Miles",
+                "credit_awarded": 1
+            }
+        ]
+    },
+    {
+        "name": "Glenn Jenkins",
+        "email": "rebeccabaker@hotmail.com",
+        "student_id": "STU075",
+        "department": "Electrical",
+        "dob": "2001-10-24",
+        "achievements": [
+            {
+                "achievement_id": "ACH0751",
+                "type": "Research",
+                "title": "Husband plan training.",
+                "description": "Machine writer above article successful present. Moment especially those. How light TV security.",
+                "date": "2024-01-11",
+                "status": "Rejected",
+                "approved_by": "Laura Todd",
+                "credit_awarded": 2
+            },
+            {
+                "achievement_id": "ACH0752",
+                "type": "Research",
+                "title": "Idea rule.",
+                "description": "Character seven area strong remain. Compare quite seem onto to travel. How around arm some man hot.",
+                "date": "2022-09-05",
+                "status": "Approved",
+                "approved_by": "Amanda Harper",
+                "credit_awarded": 5
+            },
+            {
+                "achievement_id": "ACH0753",
+                "type": "Research",
+                "title": "Economic detail.",
+                "description": "Garden middle this. Close only too bit most quality. Land identify culture sort it.",
+                "date": "2022-09-12",
+                "status": "Rejected",
+                "approved_by": "Melissa Wilson",
+                "credit_awarded": 3
+            },
+            {
+                "achievement_id": "ACH0754",
+                "type": "Workshop",
+                "title": "Despite them bit shoulder.",
+                "description": "Prevent fear grow nothing. Police knowledge leader our let hold.",
+                "date": "2024-10-06",
+                "status": "Approved",
+                "approved_by": "Stephanie Holmes",
+                "credit_awarded": 1
+            },
+            {
+                "achievement_id": "ACH0755",
+                "type": "Hackathon",
+                "title": "Run paper media visit take.",
+                "description": "Know real claim international affect.",
+                "date": "2023-04-08",
+                "status": "Rejected",
+                "approved_by": "Jesus Dougherty",
+                "credit_awarded": 5
+            }
+        ]
+    },
+    {
+        "name": "Courtney Jones",
+        "email": "hoganheather@gmail.com",
+        "student_id": "STU076",
+        "department": "Mathematics",
+        "dob": "2002-07-13",
+        "achievements": [
+            {
+                "achievement_id": "ACH0761",
+                "type": "Hackathon",
+                "title": "Direction high partner natural.",
+                "description": "Clearly lead partner shake law product. Hair fear herself east either.",
+                "date": "2021-09-14",
+                "status": "Pending",
+                "approved_by": "Lindsey Torres",
+                "credit_awarded": 4
+            },
+            {
+                "achievement_id": "ACH0762",
+                "type": "Hackathon",
+                "title": "Memory million make opportunity.",
+                "description": "Several property amount clear choose.",
+                "date": "2025-04-03",
+                "status": "Pending",
+                "approved_by": "Danielle Giles",
+                "credit_awarded": 1
+            },
+            {
+                "achievement_id": "ACH0763",
+                "type": "Workshop",
+                "title": "Natural still only you.",
+                "description": "Life difficult contain mention. Enough that before center.",
+                "date": "2023-09-04",
+                "status": "Approved",
+                "approved_by": "Samuel Carson",
+                "credit_awarded": 4
+            },
+            {
+                "achievement_id": "ACH0764",
+                "type": "Workshop",
+                "title": "Drug so carry.",
+                "description": "Center her doctor wish however determine. Best eat theory information product.",
+                "date": "2023-02-26",
+                "status": "Pending",
+                "approved_by": "Leslie Wiggins",
+                "credit_awarded": 5
+            },
+            {
+                "achievement_id": "ACH0765",
+                "type": "Workshop",
+                "title": "Professional carry fall budget these.",
+                "description": "Country what feel least claim nothing. Nation fact manager those.",
+                "date": "2023-05-19",
+                "status": "Rejected",
+                "approved_by": "Lisa Harris",
+                "credit_awarded": 3
+            }
+        ]
+    },
+    {
+        "name": "Matthew Silva",
+        "email": "april03@gmail.com",
+        "student_id": "STU077",
+        "department": "Physics",
+        "dob": "2001-10-06",
+        "achievements": [
+            {
+                "achievement_id": "ACH0771",
+                "type": "Sports",
+                "title": "Product without daughter mission really.",
+                "description": "Dark explain relate discussion continue. Expect light offer summer party green town.",
+                "date": "2025-05-02",
+                "status": "Rejected",
+                "approved_by": "Dylan Sampson",
+                "credit_awarded": 1
+            }
+        ]
+    },
+    {
+        "name": "Emily Morse",
+        "email": "chandlerkatie@gmail.com",
+        "student_id": "STU078",
+        "department": "Electrical",
+        "dob": "1999-11-11",
+        "achievements": [
+            {
+                "achievement_id": "ACH0781",
+                "type": "Sports",
+                "title": "Leave however similar.",
+                "description": "Partner small would. Control if together finish own age. By whose himself bar member.",
+                "date": "2021-10-11",
+                "status": "Approved",
+                "approved_by": "Ryan Martin",
+                "credit_awarded": 5
+            }
+        ]
+    },
+    {
+        "name": "Jonathan Guerra",
+        "email": "erikawilliams@morales-wilson.com",
+        "student_id": "STU079",
+        "department": "Physics",
+        "dob": "2007-02-26",
+        "achievements": [
+            {
+                "achievement_id": "ACH0791",
+                "type": "Certification",
+                "title": "When structure very.",
+                "description": "Court seem trial poor fly result fire.",
+                "date": "2023-05-16",
+                "status": "Pending",
+                "approved_by": "Brandi Villarreal",
+                "credit_awarded": 4
+            },
+            {
+                "achievement_id": "ACH0792",
+                "type": "Internship",
+                "title": "Tree eight financial back.",
+                "description": "Society agency food center growth choice. East especially guy improve worker sea feeling.",
+                "date": "2022-08-23",
+                "status": "Pending",
+                "approved_by": "Heather Boyd",
+                "credit_awarded": 2
+            },
+            {
+                "achievement_id": "ACH0793",
+                "type": "Research",
+                "title": "Role though argue away.",
+                "description": "Treat second training treatment throw them hour. Head herself information knowledge.",
+                "date": "2025-06-12",
+                "status": "Rejected",
+                "approved_by": "Martha Butler",
+                "credit_awarded": 4
+            }
+        ]
+    },
+    {
+        "name": "Joseph Wilson",
+        "email": "msanchez@hotmail.com",
+        "student_id": "STU080",
+        "department": "Electrical",
+        "dob": "2002-04-09",
+        "achievements": [
+            {
+                "achievement_id": "ACH0801",
+                "type": "Research",
+                "title": "Responsibility white industry account.",
+                "description": "A high public drug. Report campaign address relate learn idea financial. Rise hair benefit own.",
+                "date": "2024-05-20",
+                "status": "Pending",
+                "approved_by": "Angela Villegas",
+                "credit_awarded": 4
+            },
+            {
+                "achievement_id": "ACH0802",
+                "type": "Leadership",
+                "title": "Spring stay study.",
+                "description": "Tax act reflect politics. Environment direction respond prove example.\nMain great whether.",
+                "date": "2024-08-26",
+                "status": "Pending",
+                "approved_by": "Jessica Richardson",
+                "credit_awarded": 1
+            },
+            {
+                "achievement_id": "ACH0803",
+                "type": "Hackathon",
+                "title": "Want PM at part.",
+                "description": "Range forward center unit practice. Set staff reason page later argue.\nSign left eat six.",
+                "date": "2025-03-28",
+                "status": "Rejected",
+                "approved_by": "Cody Fisher",
+                "credit_awarded": 5
+            },
+            {
+                "achievement_id": "ACH0804",
+                "type": "Certification",
+                "title": "Address doctor air tax.",
+                "description": "Establish course always politics there final. Play box the garden give. Ahead poor focus learn.",
+                "date": "2023-04-16",
+                "status": "Approved",
+                "approved_by": "Hunter Hamilton",
+                "credit_awarded": 2
+            }
+        ]
+    },
+    {
+        "name": "Leslie Monroe",
+        "email": "donald21@bradley.biz",
+        "student_id": "STU081",
+        "department": "Mechanical",
+        "dob": "2006-08-19",
+        "achievements": [
+            {
+                "achievement_id": "ACH0811",
+                "type": "Leadership",
+                "title": "Fight less.",
+                "description": "Among right food seek whom everything. From itself sound we also bill knowledge long.",
+                "date": "2022-11-06",
+                "status": "Pending",
+                "approved_by": "Christopher Cobb",
+                "credit_awarded": 5
+            },
+            {
+                "achievement_id": "ACH0812",
+                "type": "Certification",
+                "title": "Set agent allow ok interest.",
+                "description": "Suddenly on standard theory.\nAlmost more act various order pick. City wide stay wife.",
+                "date": "2023-06-19",
+                "status": "Rejected",
+                "approved_by": "Ian Mcdaniel",
+                "credit_awarded": 3
+            }
+        ]
+    },
+    {
+        "name": "Joseph Sanchez",
+        "email": "schmidtmatthew@yahoo.com",
+        "student_id": "STU082",
+        "department": "Computer Science",
+        "dob": "2007-01-03",
+        "achievements": [
+            {
+                "achievement_id": "ACH0821",
+                "type": "Research",
+                "title": "Involve despite control.",
+                "description": "Night during cause accept world personal thing. Theory rule store good today.",
+                "date": "2025-09-03",
+                "status": "Approved",
+                "approved_by": "Anthony Mclean",
+                "credit_awarded": 1
+            },
+            {
+                "achievement_id": "ACH0822",
+                "type": "Sports",
+                "title": "Organization attack.",
+                "description": "Life explain be character event pay else. Product local their treat physical history.",
+                "date": "2021-12-18",
+                "status": "Rejected",
+                "approved_by": "Lisa Bennett",
+                "credit_awarded": 2
+            }
+        ]
+    },
+    {
+        "name": "Laura Ortiz",
+        "email": "dawn76@reynolds.info",
+        "student_id": "STU083",
+        "department": "Electrical",
+        "dob": "2003-03-12",
+        "achievements": [
+            {
+                "achievement_id": "ACH0831",
+                "type": "Certification",
+                "title": "Idea clearly fish again.",
+                "description": "Five voice fact common do whatever information together.",
+                "date": "2025-03-27",
+                "status": "Rejected",
+                "approved_by": "Lynn Adams",
+                "credit_awarded": 1
+            },
+            {
+                "achievement_id": "ACH0832",
+                "type": "Certification",
+                "title": "Score hope none news continue.",
+                "description": "Today letter head attorney. Off likely question peace.",
+                "date": "2025-04-13",
+                "status": "Pending",
+                "approved_by": "Alexis Neal",
+                "credit_awarded": 2
+            },
+            {
+                "achievement_id": "ACH0833",
+                "type": "Hackathon",
+                "title": "Out today kitchen build.",
+                "description": "Us education cultural cost sea. However most everything.",
+                "date": "2024-10-31",
+                "status": "Pending",
+                "approved_by": "Aaron Phelps",
+                "credit_awarded": 3
+            }
+        ]
+    },
+    {
+        "name": "Alex Hudson",
+        "email": "ocummings@macdonald.org",
+        "student_id": "STU084",
+        "department": "Computer Science",
+        "dob": "2006-09-05",
+        "achievements": [
+            {
+                "achievement_id": "ACH0841",
+                "type": "Research",
+                "title": "Fly eye.",
+                "description": "Everything one phone foreign. After dream inside recognize anyone read say Mr.",
+                "date": "2022-01-10",
+                "status": "Approved",
+                "approved_by": "Mrs. Heidi Gallagher",
+                "credit_awarded": 4
+            },
+            {
+                "achievement_id": "ACH0842",
+                "type": "Workshop",
+                "title": "Feeling likely.",
+                "description": "Involve feeling network hit degree star subject. Message receive many through bar environmental.",
+                "date": "2025-06-02",
+                "status": "Rejected",
+                "approved_by": "Stanley Tran",
+                "credit_awarded": 5
+            },
+            {
+                "achievement_id": "ACH0843",
+                "type": "Leadership",
+                "title": "Voice create piece.",
+                "description": "Collection program support far.",
+                "date": "2021-10-01",
+                "status": "Rejected",
+                "approved_by": "David Wilcox",
+                "credit_awarded": 3
+            },
+            {
+                "achievement_id": "ACH0844",
+                "type": "Workshop",
+                "title": "Newspaper right should.",
+                "description": "Analysis factor new system religious. Change see country campaign industry my audience.",
+                "date": "2024-07-05",
+                "status": "Pending",
+                "approved_by": "Patricia Mora",
+                "credit_awarded": 3
+            },
+            {
+                "achievement_id": "ACH0845",
+                "type": "Hackathon",
+                "title": "Difference always Mr black.",
+                "description": "Million card nature matter next really fly. Budget indeed crime leave.",
+                "date": "2021-11-23",
+                "status": "Approved",
+                "approved_by": "Dustin Taylor",
+                "credit_awarded": 2
+            }
+        ]
+    },
+    {
+        "name": "Lisa Wright",
+        "email": "virginiabrewer@rivera.org",
+        "student_id": "STU085",
+        "department": "Mathematics",
+        "dob": "2001-12-17",
+        "achievements": [
+            {
+                "achievement_id": "ACH0851",
+                "type": "Hackathon",
+                "title": "It before along.",
+                "description": "Best program instead sport. Add much yourself.",
+                "date": "2022-08-07",
+                "status": "Pending",
+                "approved_by": "Anthony Maxwell",
+                "credit_awarded": 5
+            },
+            {
+                "achievement_id": "ACH0852",
+                "type": "Certification",
+                "title": "Her development PM join tough.",
+                "description": "Doctor why half country agency. Someone evidence language.\nOil specific vote stock gun.",
+                "date": "2022-02-07",
+                "status": "Approved",
+                "approved_by": "Monica Davis",
+                "credit_awarded": 4
+            },
+            {
+                "achievement_id": "ACH0853",
+                "type": "Research",
+                "title": "Test wall lot.",
+                "description": "Majority affect size away consumer he body four. Space today they want even machine man.",
+                "date": "2023-08-05",
+                "status": "Rejected",
+                "approved_by": "Lisa Jennings",
+                "credit_awarded": 3
+            },
+            {
+                "achievement_id": "ACH0854",
+                "type": "Certification",
+                "title": "Position hope theory like.",
+                "description": "Simple find seek trip break. Find issue cultural.",
+                "date": "2024-05-02",
+                "status": "Rejected",
+                "approved_by": "Amy Myers",
+                "credit_awarded": 1
+            }
+        ]
+    },
+    {
+        "name": "Brenda Thompson",
+        "email": "rbrown@eaton.com",
+        "student_id": "STU086",
+        "department": "Chemistry",
+        "dob": "2001-11-08",
+        "achievements": [
+            {
+                "achievement_id": "ACH0861",
+                "type": "Certification",
+                "title": "Before watch.",
+                "description": "Civil rule person eat heavy season along. Most expect PM drug.",
+                "date": "2022-11-21",
+                "status": "Pending",
+                "approved_by": "Philip Garcia",
+                "credit_awarded": 5
+            }
+        ]
+    },
+    {
+        "name": "Cory Garza",
+        "email": "dfox@jacobs.com",
+        "student_id": "STU087",
+        "department": "Electronics",
+        "dob": "2002-07-30",
+        "achievements": [
+            {
+                "achievement_id": "ACH0871",
+                "type": "Sports",
+                "title": "Cell idea.",
+                "description": "Street trade style check never else. Place early cut point arm.\nThousand author field by notice.",
+                "date": "2023-09-16",
+                "status": "Rejected",
+                "approved_by": "Marcus Martinez",
+                "credit_awarded": 2
+            },
+            {
+                "achievement_id": "ACH0872",
+                "type": "Sports",
+                "title": "Floor provide reveal health.",
+                "description": "Couple most degree view admit. Air peace light stay wait. Stop range practice.",
+                "date": "2022-01-24",
+                "status": "Pending",
+                "approved_by": "Dennis Welch",
+                "credit_awarded": 3
+            }
+        ]
+    },
+    {
+        "name": "Joshua Lopez",
+        "email": "mariamcknight@carroll.com",
+        "student_id": "STU088",
+        "department": "Civil",
+        "dob": "2003-07-25",
+        "achievements": [
+            {
+                "achievement_id": "ACH0881",
+                "type": "Workshop",
+                "title": "Free majority cell city same.",
+                "description": "Care protect former easy fly try on. Piece court ten player tough can.",
+                "date": "2024-11-29",
+                "status": "Pending",
+                "approved_by": "Sean Wood",
+                "credit_awarded": 4
+            },
+            {
+                "achievement_id": "ACH0882",
+                "type": "Sports",
+                "title": "Happy car quality organization.",
+                "description": "Edge strategy age economy coach into guy. Lot pick baby against receive.",
+                "date": "2024-02-01",
+                "status": "Rejected",
+                "approved_by": "Emily Taylor",
+                "credit_awarded": 1
+            },
+            {
+                "achievement_id": "ACH0883",
+                "type": "Hackathon",
+                "title": "Method language new quickly.",
+                "description": "Site address eight area carry training customer. List point even defense very.",
+                "date": "2025-09-04",
+                "status": "Approved",
+                "approved_by": "Tammy Roberts",
+                "credit_awarded": 1
+            }
+        ]
+    },
+    {
+        "name": "Wanda Smith",
+        "email": "larsonmark@young.com",
+        "student_id": "STU089",
+        "department": "Civil",
+        "dob": "2003-09-05",
+        "achievements": [
+            {
+                "achievement_id": "ACH0891",
+                "type": "Workshop",
+                "title": "Church admit among century.",
+                "description": "Heavy which manager small own public explain. Or individual garden true.",
+                "date": "2022-10-16",
+                "status": "Rejected",
+                "approved_by": "Lisa Campbell",
+                "credit_awarded": 3
+            },
+            {
+                "achievement_id": "ACH0892",
+                "type": "Internship",
+                "title": "Station special maintain kitchen.",
+                "description": "Positive sign think think international.\nAlmost year west capital commercial summer.",
+                "date": "2022-04-22",
+                "status": "Pending",
+                "approved_by": "Kathryn Brown",
+                "credit_awarded": 2
+            },
+            {
+                "achievement_id": "ACH0893",
+                "type": "Sports",
+                "title": "Suddenly line support.",
+                "description": "Action while easy close simply usually. Professor involve glass.",
+                "date": "2025-04-21",
+                "status": "Approved",
+                "approved_by": "Sean Hansen",
+                "credit_awarded": 4
+            },
+            {
+                "achievement_id": "ACH0894",
+                "type": "Research",
+                "title": "Away store data training.",
+                "description": "State dream term describe.",
+                "date": "2024-11-09",
+                "status": "Pending",
+                "approved_by": "Michael Jordan",
+                "credit_awarded": 5
+            },
+            {
+                "achievement_id": "ACH0895",
+                "type": "Sports",
+                "title": "Study whose another near cover.",
+                "description": "Game expert under key. Prove court police seem great. Dog it have south political can again.",
+                "date": "2022-01-23",
+                "status": "Pending",
+                "approved_by": "Miss Cassandra Reilly",
+                "credit_awarded": 3
+            }
+        ]
+    },
+    {
+        "name": "Karen Mays",
+        "email": "zcruz@hotmail.com",
+        "student_id": "STU090",
+        "department": "Chemistry",
+        "dob": "2007-07-22",
+        "achievements": [
+            {
+                "achievement_id": "ACH0901",
+                "type": "Certification",
+                "title": "Small discover.",
+                "description": "Report player past another country front behind.\nKeep knowledge rest return deep.",
+                "date": "2023-10-09",
+                "status": "Approved",
+                "approved_by": "David Dorsey",
+                "credit_awarded": 4
+            },
+            {
+                "achievement_id": "ACH0902",
+                "type": "Research",
+                "title": "Arrive run will.",
+                "description": "Case common not personal chance. Near street young small management.",
+                "date": "2025-04-04",
+                "status": "Approved",
+                "approved_by": "Robert Chapman",
+                "credit_awarded": 4
+            },
+            {
+                "achievement_id": "ACH0903",
+                "type": "Internship",
+                "title": "Work red record establish federal.",
+                "description": "Pay letter many field significant relate exist. Campaign improve item claim cause.",
+                "date": "2023-07-14",
+                "status": "Rejected",
+                "approved_by": "Gabriel Moss",
+                "credit_awarded": 5
+            },
+            {
+                "achievement_id": "ACH0904",
+                "type": "Hackathon",
+                "title": "Page its movement range myself.",
+                "description": "Trouble alone American happy others religious. Shoulder start seem woman green.",
+                "date": "2022-12-28",
+                "status": "Pending",
+                "approved_by": "Terry Nolan",
+                "credit_awarded": 5
+            }
+        ]
+    },
+    {
+        "name": "Carolyn Gutierrez",
+        "email": "tjenkins@yahoo.com",
+        "student_id": "STU091",
+        "department": "Mechanical",
+        "dob": "2006-09-13",
+        "achievements": [
+            {
+                "achievement_id": "ACH0911",
+                "type": "Certification",
+                "title": "Phone official summer.",
+                "description": "Sing although matter oil. Camera myself behind probably town director enjoy daughter.",
+                "date": "2024-02-18",
+                "status": "Pending",
+                "approved_by": "Heather Reid",
+                "credit_awarded": 3
+            }
+        ]
+    },
+    {
+        "name": "Brooke Jones",
+        "email": "rodriguezroy@fischer.com",
+        "student_id": "STU092",
+        "department": "Mathematics",
+        "dob": "2007-07-13",
+        "achievements": [
+            {
+                "achievement_id": "ACH0921",
+                "type": "Leadership",
+                "title": "Must by.",
+                "description": "Occur behavior strategy wait suddenly design staff however.",
+                "date": "2022-04-14",
+                "status": "Rejected",
+                "approved_by": "Elizabeth Blake",
+                "credit_awarded": 5
+            },
+            {
+                "achievement_id": "ACH0922",
+                "type": "Certification",
+                "title": "Mother themselves to today.",
+                "description": "Necessary lay car kid challenge. Far beyond system often. Computer politics develop happen.",
+                "date": "2024-04-06",
+                "status": "Rejected",
+                "approved_by": "Mary Bush",
+                "credit_awarded": 3
+            },
+            {
+                "achievement_id": "ACH0923",
+                "type": "Leadership",
+                "title": "Program current resource.",
+                "description": "Student people short pass tree article measure area. Minute service throughout only industry.",
+                "date": "2025-08-03",
+                "status": "Rejected",
+                "approved_by": "Ronald Farmer DDS",
+                "credit_awarded": 3
+            },
+            {
+                "achievement_id": "ACH0924",
+                "type": "Hackathon",
+                "title": "Interesting finally.",
+                "description": "Skill enter system determine upon us together. Current husband section run safe central thank.",
+                "date": "2023-01-05",
+                "status": "Pending",
+                "approved_by": "Larry Weaver",
+                "credit_awarded": 5
+            }
+        ]
+    },
+    {
+        "name": "Stephanie Delacruz",
+        "email": "bradley08@hotmail.com",
+        "student_id": "STU093",
+        "department": "Electronics",
+        "dob": "2005-04-26",
+        "achievements": [
+            {
+                "achievement_id": "ACH0931",
+                "type": "Hackathon",
+                "title": "Game far.",
+                "description": "Always my material marriage must owner treat. Cell ok position lawyer attorney unit plant up.",
+                "date": "2023-11-01",
+                "status": "Rejected",
+                "approved_by": "Mark Parker",
+                "credit_awarded": 4
+            },
+            {
+                "achievement_id": "ACH0932",
+                "type": "Certification",
+                "title": "Trade window through.",
+                "description": "Look customer skin eat section put. Require while sit everyone young.",
+                "date": "2022-10-30",
+                "status": "Pending",
+                "approved_by": "Kathy Glass",
+                "credit_awarded": 5
+            }
+        ]
+    },
+    {
+        "name": "Diana Hubbard",
+        "email": "drios@cooke-jones.com",
+        "student_id": "STU094",
+        "department": "Chemistry",
+        "dob": "2005-05-18",
+        "achievements": [
+            {
+                "achievement_id": "ACH0941",
+                "type": "Sports",
+                "title": "Rather evidence eye front.",
+                "description": "Edge away foreign develop where than just. Along pass win science mention fight.",
+                "date": "2022-09-30",
+                "status": "Approved",
+                "approved_by": "Lynn Hester",
+                "credit_awarded": 5
+            },
+            {
+                "achievement_id": "ACH0942",
+                "type": "Sports",
+                "title": "Whose assume value.",
+                "description": "Nor home act wonder. Hold TV fall whole allow simple itself agent. Recognize station audience.",
+                "date": "2025-06-22",
+                "status": "Pending",
+                "approved_by": "Thomas Wise",
+                "credit_awarded": 3
+            }
+        ]
+    },
+    {
+        "name": "Sandy Brown",
+        "email": "michael66@gmail.com",
+        "student_id": "STU095",
+        "department": "Mathematics",
+        "dob": "2000-10-06",
+        "achievements": [
+            {
+                "achievement_id": "ACH0951",
+                "type": "Internship",
+                "title": "Treat teach.",
+                "description": "Prepare inside evening add at. Teacher customer special drive research recognize.",
+                "date": "2024-11-29",
+                "status": "Pending",
+                "approved_by": "Michael Phillips",
+                "credit_awarded": 3
+            }
+        ]
+    },
+    {
+        "name": "David Harris",
+        "email": "hhensley@collins.org",
+        "student_id": "STU096",
+        "department": "Electronics",
+        "dob": "2003-03-19",
+        "achievements": [
+            {
+                "achievement_id": "ACH0961",
+                "type": "Workshop",
+                "title": "Me miss front.",
+                "description": "Record word trouble speech statement yes. Painting see control peace several quality.",
+                "date": "2024-03-24",
+                "status": "Approved",
+                "approved_by": "Kevin Petty",
+                "credit_awarded": 5
+            },
+            {
+                "achievement_id": "ACH0962",
+                "type": "Hackathon",
+                "title": "Why region begin check.",
+                "description": "Well agreement home mother book upon. According left human ten class.",
+                "date": "2024-11-16",
+                "status": "Approved",
+                "approved_by": "Crystal Irwin",
+                "credit_awarded": 2
+            },
+            {
+                "achievement_id": "ACH0963",
+                "type": "Research",
+                "title": "Along focus manage at.",
+                "description": "Put station clear. Peace force discover particular suddenly. Poor draw drug near size indicate.",
+                "date": "2023-01-22",
+                "status": "Pending",
+                "approved_by": "Connor Smith",
+                "credit_awarded": 4
+            },
+            {
+                "achievement_id": "ACH0964",
+                "type": "Workshop",
+                "title": "Since way across trade.",
+                "description": "Worry policy ever. Record carry any need relate area use. Wear road pressure community.",
+                "date": "2025-02-18",
+                "status": "Pending",
+                "approved_by": "Penny Miller",
+                "credit_awarded": 5
+            },
+            {
+                "achievement_id": "ACH0965",
+                "type": "Research",
+                "title": "Serious window.",
+                "description": "Follow may machine thank wide road.\nTable on executive democratic which power recently.",
+                "date": "2023-03-25",
+                "status": "Approved",
+                "approved_by": "Whitney Blevins",
+                "credit_awarded": 1
+            }
+        ]
+    },
+    {
+        "name": "Jon Smith",
+        "email": "henryian@yahoo.com",
+        "student_id": "STU097",
+        "department": "Electrical",
+        "dob": "2005-06-25",
+        "achievements": [
+            {
+                "achievement_id": "ACH0971",
+                "type": "Sports",
+                "title": "Total anything citizen determine.",
+                "description": "Anything western cause lose water hair. Event need test family technology.",
+                "date": "2022-11-28",
+                "status": "Rejected",
+                "approved_by": "Caitlin Rhodes",
+                "credit_awarded": 1
+            },
+            {
+                "achievement_id": "ACH0972",
+                "type": "Certification",
+                "title": "History around.",
+                "description": "History modern bank miss agreement hard. Themselves movement allow military main establish.",
+                "date": "2025-01-25",
+                "status": "Rejected",
+                "approved_by": "Lauren Winters",
+                "credit_awarded": 5
+            },
+            {
+                "achievement_id": "ACH0973",
+                "type": "Leadership",
+                "title": "How area.",
+                "description": "Interesting any get whatever tough surface process. Back body must rock. Team close popular east.",
+                "date": "2024-06-30",
+                "status": "Pending",
+                "approved_by": "Candice Lopez",
+                "credit_awarded": 3
+            },
+            {
+                "achievement_id": "ACH0974",
+                "type": "Certification",
+                "title": "Understand difficult throw.",
+                "description": "Create test head whose. Live role clearly prove.",
+                "date": "2024-02-01",
+                "status": "Approved",
+                "approved_by": "Toni Lopez",
+                "credit_awarded": 2
+            },
+            {
+                "achievement_id": "ACH0975",
+                "type": "Hackathon",
+                "title": "Never inside southern soldier.",
+                "description": "Pattern country couple stay. Once you fine what defense recent condition right.",
+                "date": "2022-01-19",
+                "status": "Pending",
+                "approved_by": "Christopher Smith",
+                "credit_awarded": 1
+            }
+        ]
+    },
+    {
+        "name": "Brian Hughes",
+        "email": "lmedina@lambert-jones.info",
+        "student_id": "STU098",
+        "department": "Computer Science",
+        "dob": "2001-07-22",
+        "achievements": [
+            {
+                "achievement_id": "ACH0981",
+                "type": "Research",
+                "title": "Finally down sometimes.",
+                "description": "Itself establish guy rate.",
+                "date": "2023-04-04",
+                "status": "Approved",
+                "approved_by": "David Wood",
+                "credit_awarded": 3
+            },
+            {
+                "achievement_id": "ACH0982",
+                "type": "Hackathon",
+                "title": "Shake wind of matter.",
+                "description": "Forget couple any admit small buy. Fine share spring determine war answer. Our tonight teach party.",
+                "date": "2024-02-06",
+                "status": "Approved",
+                "approved_by": "Eric Carrillo",
+                "credit_awarded": 3
+            },
+            {
+                "achievement_id": "ACH0983",
+                "type": "Hackathon",
+                "title": "Occur popular and suffer.",
+                "description": "Kitchen kid improve forget seek score support perhaps. Property each board weight capital.",
+                "date": "2025-01-23",
+                "status": "Approved",
+                "approved_by": "Hannah Porter",
+                "credit_awarded": 2
+            },
+            {
+                "achievement_id": "ACH0984",
+                "type": "Leadership",
+                "title": "State apply.",
+                "description": "Four compare face child. Anything happen expect decade medical. Baby discuss star mean.",
+                "date": "2024-01-17",
+                "status": "Rejected",
+                "approved_by": "Katrina Collins",
+                "credit_awarded": 1
+            }
+        ]
+    },
+    {
+        "name": "Dawn Brown",
+        "email": "theresa09@hotmail.com",
+        "student_id": "STU099",
+        "department": "Chemistry",
+        "dob": "2004-06-07",
+        "achievements": [
+            {
+                "achievement_id": "ACH0991",
+                "type": "Leadership",
+                "title": "Quite avoid wrong beyond.",
+                "description": "Picture dog fund perform amount four. Fear claim fear always security parent bit.",
+                "date": "2022-05-02",
+                "status": "Rejected",
+                "approved_by": "Justin Estrada",
+                "credit_awarded": 2
+            },
+            {
+                "achievement_id": "ACH0992",
+                "type": "Hackathon",
+                "title": "Heart experience.",
+                "description": "Out realize charge range born meet.\nManage bag their difference spring.",
+                "date": "2022-11-17",
+                "status": "Approved",
+                "approved_by": "Erin Davis",
+                "credit_awarded": 3
+            },
+            {
+                "achievement_id": "ACH0993",
+                "type": "Internship",
+                "title": "This reflect across.",
+                "description": "Cell usually dinner guy treatment down.",
+                "date": "2023-04-25",
+                "status": "Rejected",
+                "approved_by": "John Randall",
+                "credit_awarded": 5
+            },
+            {
+                "achievement_id": "ACH0994",
+                "type": "Sports",
+                "title": "Strong build well.",
+                "description": "Never leg Democrat choice compare even say. Against short bring fall or.",
+                "date": "2022-03-08",
+                "status": "Pending",
+                "approved_by": "Eric Mathis",
+                "credit_awarded": 2
+            },
+            {
+                "achievement_id": "ACH0995",
+                "type": "Sports",
+                "title": "Market data enjoy skill.",
+                "description": "Activity of major. Drug season chance performance why positive always.",
+                "date": "2021-11-26",
+                "status": "Rejected",
+                "approved_by": "Ryan Davis",
+                "credit_awarded": 3
+            }
+        ]
+    },
+    {
+        "name": "Michael Moyer",
+        "email": "brenda84@santiago.com",
+        "student_id": "STU100",
+        "department": "Computer Science",
+        "dob": "2003-03-06",
+        "achievements": [
+            {
+                "achievement_id": "ACH1001",
+                "type": "Workshop",
+                "title": "Per whatever maintain.",
+                "description": "Whether support at project start. Instead environmental support cut. Soon cup you.",
+                "date": "2023-08-18",
+                "status": "Rejected",
+                "approved_by": "Laura Tran",
+                "credit_awarded": 2
+            }
+        ]
+    }
+]

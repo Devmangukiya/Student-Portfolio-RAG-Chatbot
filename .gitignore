@@ -1,0 +1,4 @@
+venv/
+logs/
+SIH.egg-info/
+.env
