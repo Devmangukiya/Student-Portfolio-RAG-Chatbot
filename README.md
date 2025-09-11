@@ -46,9 +46,7 @@ Follow these instructions to set up and run the project locally.
      Python 3.10 or higher
 
   2. Clone the Repository
-     git clone [https://github.com/Devmangukiya/Student-Portfolio-RAG-Chatbot.git](https://github.com/your-username/Student-Portfolio-       RAG-Chatbot.git)
-     cd Student-Portfolio-RAG-Chatbot
-
+     
   3. Create a Virtual Environment
      It is highly recommended to use a virtual environment to manage dependencies.
 
