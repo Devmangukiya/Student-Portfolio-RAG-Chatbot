@@ -58,34 +58,34 @@ venv\Scripts\activate
 # On macOS/Linux
 source venv/bin/activate
 
-4. Install Dependencies
-Install all the required Python libraries.
+  4. Install Dependencies
+      Install all the required Python libraries.
 
 pip install -r requirements.txt
 
 (Note: You will need to create a requirements.txt file by running pip freeze > requirements.txt in your activated environment.)
 
-5. Set Up Environment Variables
-You will need API keys for the services used in this project. Create a file named .env in the root of your project directory and add the following:
+  5. Set Up Environment Variables
+      You will need API keys for the services used in this project. Create a file named .env in the root of your project directory and        add the following:
 
 # .env file
 GROQ_API_KEY="your_groq_api_key_here"
 
-6. Data Ingestion (Crucial First Step)
-Before you can run the application, you must build the vector store from your JSON data. This is a one-time process that you only need to re-run if your students_achievements.json file changes.
+  6. Data Ingestion (Crucial First Step)
+     Before you can run the application, you must build the vector store from your JSON data. This is a one-time process that you only       need to re-run if your students_achievements.json file changes.
 
 Important: Make sure your data/students_achievements.json file is present and correctly formatted.
 
 Run the ingestion script from the root directory:
 
-python ingest_data.py
+python app/components/data_loader.py
 
 This will create a vectorstore/db_faiss directory containing your indexed data.
 
-7. Run the Application
-Once the data ingestion is complete, you can start the Flask web server.
+  7. Run the Application
+      Once the data ingestion is complete, you can start the Flask web server.
 
-python application.py
+python app/application.py
 
 The application will now be running. Open your web browser and navigate to:
 http://127.0.0.1:5000
