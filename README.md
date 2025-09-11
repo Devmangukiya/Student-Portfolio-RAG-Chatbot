@@ -2,57 +2,55 @@
 - An intelligent chatbot designed to provide instant, accurate answers about student achievements from a JSON dataset.
 - This project leverages a sophisticated hybrid AI model combining a Retrieval-Augmented Generation (RAG) pipeline for portfolio summaries and a direct data query engine for specific, database-style questions.
 
-Overview
-This application serves as a powerful interface for querying complex student data through a simple, conversational chat interface. Instead of manually searching through JSON files or writing database queries, users can ask questions in natural language and receive immediate, context-aware responses.
+1) Overview :- 
+  - This application serves as a powerful interface for querying complex student data through a simple, conversational chat interface.      Instead of manually searching through JSON files or writing database queries, users can ask questions in natural language and           receive immediate, context-aware responses.
 
-The system is built on a "Router of Chains" architecture, which first analyzes the user's intent and then directs the query to the appropriate tool:
+  - The system is built on a "Router of Chains" architecture, which first analyzes the user's intent and then directs the query to the      appropriate tool:
 
-RAG Chain ("The Librarian"): For open-ended questions asking for a portfolio or summary about a specific student. It retrieves all relevant achievements and uses a Large Language Model (LLM) to generate a cohesive summary.
+  - RAG Chain ("The Librarian"): For open-ended questions asking for a portfolio or summary about a specific student. It retrieves all      relevant achievements and uses a Large Language Model (LLM) to generate a cohesive summary.
 
-Pandas Query Engine ("The Accountant"): For specific, analytical questions that require filtering or searching across the entire dataset (e.g., "List all students with a 'Leadership' achievement"). It uses an LLM to dynamically generate and execute Pandas queries on the fly.
 
-Key Features
-Conversational Interface: Simple and intuitive chat-based UI built with Flask and Tailwind CSS.
+2) Key Features :- 
 
-Hybrid AI Model: Intelligently routes queries to either a RAG pipeline or a direct data query engine for optimal accuracy and performance.
+  - Conversational Interface: Simple and intuitive chat-based UI built with Flask and Tailwind CSS.
 
-Natural Language Understanding: Ask complex questions in plain English, such as "Give me a summary for the student with email rlynn@hotmail.com" or "How many students are in the Civil department?"
+  - Hybrid AI Model: Intelligently routes queries to either a RAG pipeline or a direct data query engine for optimal accuracy and           performance.
 
-Accurate Data Retrieval: Utilizes FAISS vector store and advanced retrieval strategies (MMR) to find the most relevant information.
+  - Natural Language Understanding: Ask complex questions in plain English, such as "Give me a summary for the student with email           rlynn@hotmail.com" or "How many students are in the Civil department?"
 
-On-the-Fly Code Generation: The data query engine uses an LLM to write and execute Pandas code in real-time to answer analytical questions.
+  - Accurate Data Retrieval: Utilizes FAISS vector store and advanced retrieval strategies (MMR) to find the most relevant information.
 
-Robust & Scalable: Built with a modular architecture, making it easy to extend with new data sources or capabilities.
+  - Robust & Scalable: Built with a modular architecture, making it easy to extend with new data sources or capabilities.
 
-Tech Stack
-Backend: Python, Flask
 
-AI/LLM Framework: LangChain
+3) Tech Stack :-
 
-LLM: Llama 3.1 (via Groq for high-speed inference)
+  - Backend: Python, Flask
 
-Vector Store: FAISS
+  - AI/LLM Framework: LangChain
 
-Embeddings: sentence-transformers/all-MiniLM-L6-v2
+  - LLM: Llama 3.1 (via Groq for high-speed inference)
 
-Data Querying: Pandas
+  Vector Store: FAISS
 
-Frontend: HTML, Tailwind CSS, JavaScript
+  - Embeddings: sentence-transformers/all-MiniLM-L6-v2
 
-Getting Started
+  Frontend: HTML, CSS 
+
+
+4) Getting Started :-
+
 Follow these instructions to set up and run the project locally.
 
-1. Prerequisites
-Python 3.10 or higher
+  1. Prerequisites
+     Python 3.10 or higher
 
-Git
+  2. Clone the Repository
+     git clone [https://github.com/Devmangukiya/Student-Portfolio-RAG-Chatbot.git](https://github.com/your-username/Student-Portfolio-       RAG-Chatbot.git)
+     cd Student-Portfolio-RAG-Chatbot
 
-2. Clone the Repository
-git clone [https://github.com/Devmangukiya/Student-Portfolio-RAG-Chatbot.git](https://github.com/your-username/Student-Portfolio-RAG-Chatbot.git)
-cd Student-Portfolio-RAG-Chatbot
-
-3. Create a Virtual Environment
-It is highly recommended to use a virtual environment to manage dependencies.
+  3. Create a Virtual Environment
+     It is highly recommended to use a virtual environment to manage dependencies.
 
 python -m venv venv
 # On Windows
