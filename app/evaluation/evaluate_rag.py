@@ -7,7 +7,6 @@ from ragas.metrics import faithfulness, answer_relevancy, context_recall, contex
 from ragas.run_config import RunConfig
 from langchain_huggingface import HuggingFaceEmbeddings
 
-# Import all necessary components
 from app.components.retriever import create_rag_chain
 from app.components.llm import load_llm
 from app.config.config import EVAL_DATA_PATH, GROQ_API_KEY, GROQ_MODEL_NAME, EMBEDDING_MODEL_NAME
@@ -22,7 +21,6 @@ def run_evaluation():
     try:
         logger.info("--- Starting RAG Pipeline Evaluation ---")
 
-        # 1. Load the evaluation dataset
         eval_path = Path(EVAL_DATA_PATH) / "synthetic_test_set.csv"
         if not eval_path.exists():
             logger.error(f"'{eval_path}' not found. Please run generate_testset.py first.")

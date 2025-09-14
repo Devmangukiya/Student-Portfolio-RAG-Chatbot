@@ -11,7 +11,7 @@ eval/
 .vscode/
 .idea/
 .DS_Store
-
+SIH.egg-info/
 
 
 ### Your Final, Correct Workflow

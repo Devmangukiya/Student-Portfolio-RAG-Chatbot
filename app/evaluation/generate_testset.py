@@ -44,8 +44,8 @@ def generate_evaluation_dataset():
        
         testset = generator.generate_with_langchain_docs(
             documents=text_chunks, 
-            test_size=3,  # Drastically reduced to avoid TPM limits
-            distributions={simple: 1.0}, # Only generate simple questions for now
+            test_size=3,  
+            distributions={simple: 1.0}, 
             run_config=run_config,
             is_async=False
         )
