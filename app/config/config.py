@@ -2,15 +2,17 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 
-
 HF_TOKEN = os.environ.get("HF_TOKEN")
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY")
-GROQ_MODEL_NAME = "llama-3.1-8b-instant"
-EMBEDDING_MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
+GROQ_MODEL_NAME = "openai/gpt-oss-120b"
+EMBEDDING_MODEL_NAME = EMBEDDING_MODEL_NAME = "BAAI/bge-large-en-v1.5"
 
-DB_FAISS_PATH = "vectorstore/db_faiss"
+PINECONE_EMBEDDING_MODEL = "pinecone/llama-text-embed-v2"
+PINECONE_API_KEY = os.environ.get("PINECONE_API_KEY")
+PINECONE_INDEX_NAME = "student-portfolio-index"
 
 DATA_PATH = "data/"
-CHUNK_SIZE = 500
+EVAL_DATA_PATH = "eval/"
+CHUNK_SIZE = 750
 CHUNK_OVERLAP = 50
 TOP_K = 8
