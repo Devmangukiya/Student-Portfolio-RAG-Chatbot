@@ -2,19 +2,15 @@ from flask import Flask, render_template, request, jsonify
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 
-# Import all your AI components
 from app.common.logger import get_logger
 from app.components.retriever import create_rag_chain
 from app.components.data_query_engine import DataQueryEngine
 from app.components.llm import load_llm
 from app.config.config import GROQ_API_KEY, GROQ_MODEL_NAME
 
-# --- Initialize ---
 logger = get_logger(__name__)
 app = Flask(__name__)
 
-# --- PROMPT FOR ROUTER (UPGRADED) ---
-# We now add a third option: 'general_conversation'
 PROMPT_ROUTER = ChatPromptTemplate.from_messages(
     [
         ("system", """
@@ -31,7 +27,6 @@ Based on the user's question, respond with ONLY the name of the correct tool.
     ]
 )
 
-# --- PROMPT FOR THE NEW GENERALIST TOOL ---
 PROMPT_GENERAL = ChatPromptTemplate.from_messages(
     [
         ("system", "You are a helpful AI assistant. Answer the user's question concisely and directly."),
@@ -40,19 +35,13 @@ PROMPT_GENERAL = ChatPromptTemplate.from_messages(
 )
 
 
-# --- Load All AI Models at Startup ---
 try:
     logger.info("Application starting up... Initializing all AI components.")
-    # Tool 1: The RAG chain for summaries
     rag_chain = create_rag_chain()
-    # Tool 2: The Data Query Engine for data questions
     data_query_engine = DataQueryEngine()
-    # The main LLM for the Router and the new Generalist tool
     llm = load_llm(model_name=GROQ_MODEL_NAME, groq_api_key=GROQ_API_KEY)
     
-    # Tool 3: The Router to decide which tool to use
     router_chain = PROMPT_ROUTER | llm | StrOutputParser()
-    # Tool 4 (NEW): The chain for general conversation
     general_chain = PROMPT_GENERAL | llm | StrOutputParser()
     
     logger.info("All components initialized successfully. Application is ready.")
@@ -85,7 +74,7 @@ def get_response():
         elif "general_query" in route:
             logger.info("Invoking Data Query Engine...")
             response_text = data_query_engine.query_data(user_query)
-        else: # Default to general conversation
+        else: 
             logger.info("Invoking General Conversation chain...")
             response_text = general_chain.invoke({"question": user_query})
 
@@ -95,7 +84,6 @@ def get_response():
         logger.error(f"An error occurred while processing the request: {e}", exc_info=True)
         return jsonify({"error": "An internal error occurred while generating the response."}), 500
 
-# --- Run the Application ---
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=False)
 

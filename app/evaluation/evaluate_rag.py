@@ -31,7 +31,6 @@ def run_evaluation():
         if 'ground_truth_answer' in df.columns:
             df = df.rename(columns={"ground_truth_answer": "ground_truth"})
 
-        # 2. Initialize all components
         rag_chain = create_rag_chain()
         if rag_chain is None:
             logger.error("RAG chain failed to initialize. Aborting evaluation.")

@@ -1,0 +1,23 @@
+Metadata-Version: 2.4
+Name: SIH
+Version: 0.1
+Author: Dev Mangukiya
+Requires-Dist: langchain==0.1.20
+Requires-Dist: langchain_huggingface
+Requires-Dist: faiss-cpu
+Requires-Dist: pypdf
+Requires-Dist: huggingface_hub
+Requires-Dist: flask
+Requires-Dist: python-dotenv
+Requires-Dist: sentence-transformers
+Requires-Dist: groq
+Requires-Dist: langchain-groq
+Requires-Dist: jq
+Requires-Dist: ragas==0.1.7
+Requires-Dist: pydantic==1.10.13
+Requires-Dist: pandas
+Requires-Dist: datasets
+Requires-Dist: pyyaml
+Requires-Dist: langchain-pinecone
+Dynamic: author
+Dynamic: requires-dist
