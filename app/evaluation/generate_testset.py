@@ -4,7 +4,7 @@ from pathlib import Path
 from ragas.testset.generator import TestsetGenerator
 from ragas.testset.evolutions import simple, reasoning, multi_context
 from langchain_huggingface import HuggingFaceEmbeddings
-from ragas.run_config import RunConfig  # Import the RunConfig
+from ragas.run_config import RunConfig
 
 # Import all necessary components and config variables
 from app.components.json_loader import load_json_files, create_text_chunks
@@ -19,7 +19,8 @@ logger = get_logger(__name__)
 
 def generate_evaluation_dataset():
     """
-    Uses a stable Ragas API and a custom RunConfig to prevent rate limiting errors.
+    Uses a stable Ragas API and a custom RunConfig to prevent rate limiting errors,
+    with a significantly reduced test size to stay within free tier API limits.
     """
     try:
         logger.info("--- Starting Test Set Generation (with Rate Limit control) ---")
@@ -45,18 +46,21 @@ def generate_evaluation_dataset():
             embeddings
         )
 
-        # --- THE DEFINITIVE FIX ---
-        # We are creating a RunConfig to explicitly tell Ragas to use only 1 worker.
-        # This forces serial execution and prevents the "429 Too Many Requests" error from the Groq API.
         run_config = RunConfig(max_workers=1)
 
-        # 3. Generate the test set with the new run_config
-        logger.info("Generating test set... (This will be slower but will not crash)")
+        # 3. Generate the test set with a smaller size
+        logger.info("Generating a smaller test set to stay within API token limits...")
+        
+        # --- THE CRITICAL FIX ---
+        # We are reducing the test_size from 20 to just 3. This is a very small
+        # number, but it will prove the pipeline works and will use far fewer tokens,
+        # preventing the Groq API from rate-limiting the requests.
         testset = generator.generate_with_langchain_docs(
             documents=text_chunks, 
-            test_size=20,
-            distributions={simple: 0.5, reasoning: 0.25, multi_context: 0.25},
-            run_config=run_config  # Pass the new config here
+            test_size=3,  # Drastically reduced to avoid TPM limits
+            distributions={simple: 1.0}, # Only generate simple questions for now
+            run_config=run_config,
+            is_async=False
         )
         logger.info("Test set generation complete.")
 
