@@ -12,7 +12,6 @@ from app.common.custom_exception import CustomException
 logger = get_logger(__name__)
 
 
-# --- PROMPT 1: The Internal Router (No changes needed) ---
 PROMPT_QUERY_TYPE_ROUTER = PromptTemplate.from_template(
     """
 ### ROLE ###
@@ -39,7 +38,6 @@ User Question: "give me student which has total highest credit awarded" -> compl
 """
 )
 
-# --- PROMPT 2: The Reliable JSON Method for Simple Filters (No changes needed) ---
 PROMPT_STRUCTURED_QUERY = PromptTemplate.from_template(
     """
 ### ROLE ###
@@ -172,25 +170,21 @@ class DataQueryEngine:
             
             logger.info(f"Executing analytical plan: {plan}")
             
-            # --- THE CRITICAL FIX: The Python Code Builder ---
-            # We no longer use `eval`. We build the query safely in Python.
             
             df = self.df
             
-            # Start building the query
             grouped_data = df.groupby(plan['groupby_col'])[plan['agg_col']]
             
             if plan['agg_func'] == 'sum':
                 aggregated_data = grouped_data.sum()
             elif plan['agg_func'] == 'count':
-                aggregated_data = grouped_data.size() # .size() is equivalent to count for groupby
+                aggregated_data = grouped_data.size() 
             elif plan['agg_func'] == 'idxmax':
                 result = grouped_data.sum().idxmax()
                 return f"The result is: {str(result).title()}"
             else:
                 raise ValueError(f"Unsupported aggregation function: {plan['agg_func']}")
 
-            # Continue building: sorting and selecting top N
             sorted_data = aggregated_data.sort_values(ascending=plan.get('sort_ascending', False))
             top_results = sorted_data.head(plan.get('top_n', 10))
             

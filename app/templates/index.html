@@ -83,14 +83,12 @@
 </head>
 <body class="flex items-center justify-center h-screen p-4">
 
-    <!-- The Cosmic Rift Background -->
     <div id="cosmic-background">
         <div id="shape1" class="rift-shape"></div>
         <div id="shape2" class="rift-shape"></div>
         <div id="shape3" class="rift-shape"></div>
     </div>
 
-    <!-- The Crystal Chat Window -->
     <div id="chat-window" class="w-full h-full max-w-4xl mx-auto rounded-3xl shadow-2xl flex flex-col">
         
         <header class="p-4 border-b border-white/10 flex items-center justify-between flex-shrink-0">
@@ -131,7 +129,6 @@
         </footer>
     </div>
 
-    <!-- ===== THIS IS THE ONLY SECTION THAT HAS CHANGED ===== -->
     <script>
         const chatForm = document.getElementById('chat-form');
         const userInput = document.getElementById('user-input');
@@ -150,7 +147,6 @@
             sendButton.disabled = true;
 
             try {
-                // This is the real API call to your Flask backend
                 const response = await fetch('/get_response', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
@@ -163,7 +159,6 @@
                 const data = await response.json();
                 const responseText = data.response || "Sorry, I couldn't get a response.";
                 
-                // Use marked.js to render any Markdown (like lists or bolding)
                 const renderedHtml = marked.parse(responseText);
                 appendMessage(renderedHtml, 'bot', true);
 
@@ -197,7 +192,7 @@
                 
                 messageDiv.appendChild(contentWrapper);
                 messageDiv.insertAdjacentHTML('beforeend', userAvatar);
-            } else { // Bot message
+            } else { 
                 messageDiv.classList.add('bot-message', 'max-w-xl');
                 contentWrapper.classList.add('bg-black/30', 'backdrop-blur-sm', 'text-gray-300', 'rounded-bl-none');
                 messageDiv.insertAdjacentHTML('afterbegin', botAvatar);
