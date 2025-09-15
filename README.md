@@ -85,7 +85,6 @@ This will create a vectorstore/db_faiss directory containing your indexed data.
 
 python app/application.py
 
-The application will now be running. Open your web browser and navigate to:
-http://127.0.0.1:5000
+The application will now be running. Open your web browser and navigate to
 
 Now, It's time for start asking questions to your AI assistant!
