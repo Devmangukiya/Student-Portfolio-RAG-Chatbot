@@ -1,0 +1,1167 @@
+2025-09-15 19:56:33,132 - INFO - --- Starting Test Set Generation (with Rate Limit control) ---
+2025-09-15 19:56:33,133 - INFO - Attempting to load JSON file from: D:\SIH\data\students_achievements.json
+2025-09-15 19:56:33,133 - INFO - Found file 'students_achievements.json'. Initializing JSONLoader...
+2025-09-15 19:56:33,272 - INFO - Successfully loaded and sanitized 286 documents.
+2025-09-15 19:56:33,285 - INFO - Generated 286 text chunks.
+2025-09-15 19:56:33,285 - INFO - Loading LLM from GROQ using Llama3 model...
+2025-09-15 19:56:34,443 - INFO - LLM loaded successfully from GROQ.
+2025-09-15 19:56:34,444 - INFO - Loading LLM from GROQ using Llama3 model...
+2025-09-15 19:56:35,715 - INFO - LLM loaded successfully from GROQ.
+2025-09-15 19:56:47,552 - INFO - Load pretrained SentenceTransformer: BAAI/bge-large-en-v1.5
+2025-09-15 19:56:54,906 - INFO - Generating a smaller test set to stay within API token limits...
+2025-09-15 19:56:55,802 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-15 19:56:55,871 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-15 19:56:55,903 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-15 19:56:55,953 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-15 19:56:55,958 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-15 19:56:56,059 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-15 19:56:56,711 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-15 19:56:56,783 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-15 19:56:56,805 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-15 19:56:56,973 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-15 19:56:57,289 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-15 19:56:57,501 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-15 19:56:58,148 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-15 19:56:58,794 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-15 19:56:59,339 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-15 19:57:01,062 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:01,071 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:01,076 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:01,079 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:01,086 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:01,089 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:01,095 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:01,102 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:01,676 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-15 19:57:01,680 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-15 19:57:04,189 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:04,195 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:04,198 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:04,199 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:04,202 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:04,205 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:04,207 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:04,213 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:07,305 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:07,308 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:07,311 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:07,451 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:07,454 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:57:07,612 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:07,616 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:57:07,767 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-15 19:57:07,840 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:07,843 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:07,845 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:07,846 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:08,011 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:08,014 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:08,167 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:08,170 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:08,174 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:08,178 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:08,192 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:08,197 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:08,502 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:08,506 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:57:08,644 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:08,647 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:57:09,556 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:09,560 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-09-15 19:57:09,689 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:09,693 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-09-15 19:57:10,737 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:10,740 - INFO - Retrying request to /openai/v1/chat/completions in 5.000000 seconds
+2025-09-15 19:57:10,777 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:10,970 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:10,973 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:10,975 - INFO - Retrying request to /openai/v1/chat/completions in 5.000000 seconds
+2025-09-15 19:57:10,976 - INFO - Retrying request to /openai/v1/chat/completions in 5.000000 seconds
+2025-09-15 19:57:11,120 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:11,125 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:11,133 - INFO - Retrying request to /openai/v1/chat/completions in 5.000000 seconds
+2025-09-15 19:57:11,134 - INFO - Retrying request to /openai/v1/chat/completions in 5.000000 seconds
+2025-09-15 19:57:11,143 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-15 19:57:11,162 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-15 19:57:11,215 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:11,221 - INFO - Retrying request to /openai/v1/chat/completions in 8.000000 seconds
+2025-09-15 19:57:11,224 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:11,233 - INFO - Retrying request to /openai/v1/chat/completions in 8.000000 seconds
+2025-09-15 19:57:11,292 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:11,295 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:11,298 - INFO - Retrying request to /openai/v1/chat/completions in 8.000000 seconds
+2025-09-15 19:57:11,301 - INFO - Retrying request to /openai/v1/chat/completions in 8.000000 seconds
+2025-09-15 19:57:11,304 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:11,323 - INFO - Retrying request to /openai/v1/chat/completions in 8.000000 seconds
+2025-09-15 19:57:11,436 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:11,437 - INFO - Retrying request to /openai/v1/chat/completions in 7.000000 seconds
+2025-09-15 19:57:11,441 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:11,444 - INFO - Retrying request to /openai/v1/chat/completions in 7.000000 seconds
+2025-09-15 19:57:11,457 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:11,460 - INFO - Retrying request to /openai/v1/chat/completions in 7.000000 seconds
+2025-09-15 19:57:13,924 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:13,925 - INFO - Retrying request to /openai/v1/chat/completions in 5.000000 seconds
+2025-09-15 19:57:13,929 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:13,931 - INFO - Retrying request to /openai/v1/chat/completions in 5.000000 seconds
+2025-09-15 19:57:13,933 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:13,934 - INFO - Retrying request to /openai/v1/chat/completions in 5.000000 seconds
+2025-09-15 19:57:15,825 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:16,085 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:16,112 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:16,251 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:16,264 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:16,265 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:16,654 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:16,655 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:57:16,916 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:16,917 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:57:17,210 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:17,211 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:57:17,849 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:17,850 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-09-15 19:57:18,575 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:18,576 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:18,586 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:18,587 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:18,736 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:18,738 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:57:18,909 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:18,911 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:57:18,960 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:18,961 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:57:19,026 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:19,027 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:57:19,085 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-15 19:57:19,189 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:19,190 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:57:19,207 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:19,209 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:57:19,266 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:19,267 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:57:19,311 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:19,313 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:19,316 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:19,321 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:57:19,322 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:57:19,373 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:19,376 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:19,382 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:19,508 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:19,510 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:19,512 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:19,513 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:20,360 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:20,362 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:20,811 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:21,031 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:21,044 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:21,123 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:21,124 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:57:21,126 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:21,481 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:21,482 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-09-15 19:57:21,614 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:21,615 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-09-15 19:57:21,646 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:21,648 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:22,169 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:22,169 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-09-15 19:57:22,274 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:22,276 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-09-15 19:57:22,310 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:22,310 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-09-15 19:57:22,365 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:22,365 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-09-15 19:57:22,579 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:22,580 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:22,590 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:22,591 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:22,733 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:22,734 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:23,202 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-15 19:57:23,264 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:23,267 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:57:23,289 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:23,295 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:23,297 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:57:23,298 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:23,301 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:23,302 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:57:23,367 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:23,370 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:23,375 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:23,376 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:23,429 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:23,430 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:23,444 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:23,444 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:23,483 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:23,502 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:23,502 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:23,550 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:23,551 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:23,681 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:23,682 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:23,855 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:23,856 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:24,009 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:24,010 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:24,055 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:24,056 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:24,220 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:24,221 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:25,694 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:25,733 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:25,839 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:26,278 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:26,279 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-09-15 19:57:26,411 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:26,412 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:26,476 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:26,540 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:26,544 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:26,629 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:26,630 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:26,635 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:26,734 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-15 19:57:26,806 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:26,808 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:57:26,815 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:26,816 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:57:26,881 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:26,882 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:57:26,957 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:26,958 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:27,075 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:27,076 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:27,123 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:27,124 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:27,285 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:27,286 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:27,345 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:27,345 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:27,347 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:27,360 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:27,361 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:27,365 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:27,520 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:27,520 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:28,216 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:28,217 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:57:28,290 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:28,291 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:57:28,415 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:28,416 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:57:29,505 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:29,506 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-09-15 19:57:29,725 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:30,174 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:30,301 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:30,350 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:30,353 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:30,411 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:30,441 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:30,442 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:30,476 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:30,476 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:57:30,579 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:30,581 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:30,584 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:30,585 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:57:30,587 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:30,697 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:30,699 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:57:30,701 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-15 19:57:30,961 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:30,962 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:57:30,965 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:30,976 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:30,978 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:30,980 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:57:30,982 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:57:31,218 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:31,221 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:57:31,433 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:31,434 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:31,810 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:31,813 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:31,817 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:31,818 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:31,891 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:31,892 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:32,585 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:32,662 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:32,664 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:57:32,777 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:32,778 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:57:32,790 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:33,144 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:33,145 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:57:33,452 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:33,545 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:33,546 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:33,547 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-09-15 19:57:33,681 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:33,682 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-09-15 19:57:34,620 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:34,621 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:34,729 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:34,730 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:34,730 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:34,877 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:34,879 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:57:34,881 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:34,882 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:57:34,883 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:34,884 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:57:34,924 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:34,925 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:57:35,004 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-15 19:57:35,026 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:35,028 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:57:35,031 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:35,034 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:35,111 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:35,112 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:57:35,259 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:35,260 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:57:35,361 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:35,362 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:35,427 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:35,428 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:36,119 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:36,120 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:36,964 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:36,965 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:36,965 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:57:36,966 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:36,978 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:37,038 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:37,045 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:37,045 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:57:37,285 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:37,286 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:57:37,370 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:37,371 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-09-15 19:57:37,610 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:37,613 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-09-15 19:57:37,675 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:37,746 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:37,747 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-09-15 19:57:37,825 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:37,920 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:37,920 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-09-15 19:57:38,500 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:38,500 - INFO - Retrying request to /openai/v1/chat/completions in 5.000000 seconds
+2025-09-15 19:57:38,503 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:38,503 - INFO - Retrying request to /openai/v1/chat/completions in 5.000000 seconds
+2025-09-15 19:57:38,684 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:38,685 - INFO - Retrying request to /openai/v1/chat/completions in 5.000000 seconds
+2025-09-15 19:57:38,886 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:38,886 - INFO - Retrying request to /openai/v1/chat/completions in 5.000000 seconds
+2025-09-15 19:57:39,030 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-15 19:57:39,031 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:39,033 - INFO - Retrying request to /openai/v1/chat/completions in 6.000000 seconds
+2025-09-15 19:57:39,035 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-15 19:57:39,043 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:39,045 - INFO - Retrying request to /openai/v1/chat/completions in 8.000000 seconds
+2025-09-15 19:57:39,053 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:39,056 - INFO - Retrying request to /openai/v1/chat/completions in 8.000000 seconds
+2025-09-15 19:57:39,097 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:39,101 - INFO - Retrying request to /openai/v1/chat/completions in 8.000000 seconds
+2025-09-15 19:57:39,108 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:39,111 - INFO - Retrying request to /openai/v1/chat/completions in 8.000000 seconds
+2025-09-15 19:57:39,177 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:39,178 - INFO - Retrying request to /openai/v1/chat/completions in 7.000000 seconds
+2025-09-15 19:57:39,191 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:39,192 - INFO - Retrying request to /openai/v1/chat/completions in 7.000000 seconds
+2025-09-15 19:57:39,236 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:39,319 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:39,369 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:39,370 - INFO - Retrying request to /openai/v1/chat/completions in 7.000000 seconds
+2025-09-15 19:57:40,813 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:40,815 - INFO - Retrying request to /openai/v1/chat/completions in 6.000000 seconds
+2025-09-15 19:57:41,866 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:41,866 - INFO - Retrying request to /openai/v1/chat/completions in 5.000000 seconds
+2025-09-15 19:57:43,749 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:43,770 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:43,840 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:43,971 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:44,272 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:44,273 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:57:44,422 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:44,424 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:57:45,376 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:45,376 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-09-15 19:57:45,455 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:45,456 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-09-15 19:57:45,654 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:45,655 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-09-15 19:57:46,264 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:46,330 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:46,330 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:46,376 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:46,377 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:46,500 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:46,501 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:46,502 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:46,654 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:46,706 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:46,706 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:57:46,736 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:46,737 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:57:46,740 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-15 19:57:46,805 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:46,806 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:57:46,892 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:46,893 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:46,893 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:57:46,894 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:57:46,976 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:46,977 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:57:47,148 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:47,148 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:47,213 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:47,213 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:57:47,224 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:48,801 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:48,810 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:49,530 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:49,531 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-09-15 19:57:49,556 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:49,615 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:49,931 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:49,933 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-09-15 19:57:50,038 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:50,038 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-09-15 19:57:50,556 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:50,557 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:50,686 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:50,898 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:50,899 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:57:50,964 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:50,970 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:50,971 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:57:50,985 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-15 19:57:51,005 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:51,005 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:57:51,075 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:51,111 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:51,111 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:57:51,134 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:51,135 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:51,135 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:57:51,136 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:57:51,296 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:51,395 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:51,395 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:51,790 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:51,791 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:52,057 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:52,058 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:52,259 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:52,259 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:57:52,304 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:52,304 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:57:52,667 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:52,668 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:57:52,995 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:53,050 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:53,451 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:53,451 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-09-15 19:57:53,876 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:53,877 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-09-15 19:57:54,520 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:54,521 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:54,623 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:54,624 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:54,625 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:54,626 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:54,751 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:54,752 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:57:54,915 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:54,916 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:57:54,970 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:54,988 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-15 19:57:55,117 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:55,120 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:57:55,131 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:55,145 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:55,147 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:55,246 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:55,248 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:55,250 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:55,252 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:55,546 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:56,842 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:56,845 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:57:56,861 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:57,065 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:57,066 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:57,067 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:57:57,335 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:57,336 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-09-15 19:57:57,654 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:57,720 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:57,720 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:57,923 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:57,925 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-09-15 19:57:58,350 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:58,370 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:58,419 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:58,421 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:58,510 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:58,512 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:58,861 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-15 19:57:58,921 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:58,922 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:57:58,925 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:58,926 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:57:58,930 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:58,931 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:57:59,078 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:59,080 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:57:59,188 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:59,188 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:57:59,233 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:59,234 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:57:59,361 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:59,362 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:59,371 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:59,372 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:57:59,655 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:57:59,656 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:58:01,435 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:01,436 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-09-15 19:58:01,660 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:01,710 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:01,711 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-09-15 19:58:02,379 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:02,380 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:58:02,535 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:02,536 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:02,536 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:02,537 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:58:02,537 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:58:02,537 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:58:02,815 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:02,816 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:58:02,821 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:02,889 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-15 19:58:02,988 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:02,988 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:58:03,067 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:03,074 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:03,075 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:58:03,086 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:03,087 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:58:03,135 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:03,260 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:03,384 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:03,784 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:03,785 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:58:04,515 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:04,516 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:58:04,744 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:04,745 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:58:05,500 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:05,501 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-09-15 19:58:05,620 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:05,630 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:05,636 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:05,890 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:05,900 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:05,901 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-09-15 19:58:05,911 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:05,912 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-09-15 19:58:06,804 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:06,805 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:58:06,897 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:06,898 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:58:06,985 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:06,986 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:06,987 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:58:06,987 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:58:07,044 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:07,045 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:58:07,066 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-15 19:58:07,145 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:07,150 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:07,716 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:07,721 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:58:07,723 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:07,724 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:58:07,780 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:07,781 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:58:07,800 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:07,802 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:58:08,161 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:08,162 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:58:08,456 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:08,457 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:58:09,096 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:09,102 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:09,110 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:09,372 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:09,372 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:09,373 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:58:09,373 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:58:09,861 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:09,989 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:10,121 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:10,122 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-09-15 19:58:10,341 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:10,342 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-09-15 19:58:10,809 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:10,810 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:58:10,818 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:10,891 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:10,891 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:58:11,029 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:11,030 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:58:11,215 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:11,216 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:58:11,285 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:11,285 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:58:11,521 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-15 19:58:11,522 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:11,523 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:58:11,527 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:11,527 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:58:11,541 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:11,541 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:58:11,604 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:11,604 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:58:11,849 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:11,850 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:58:12,057 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:12,058 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:58:13,134 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:13,337 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:13,386 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:13,591 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:13,931 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:14,000 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:14,573 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:14,574 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-09-15 19:58:14,889 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:14,890 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-09-15 19:58:15,592 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:15,593 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:15,594 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:58:15,690 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:15,691 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:58:15,700 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:15,701 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:58:15,942 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:15,942 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:58:16,009 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:16,009 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:58:16,070 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-15 19:58:16,111 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:16,112 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:58:16,136 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:16,138 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:58:18,022 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:18,090 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:18,260 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:18,261 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:58:18,732 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:18,733 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-09-15 19:58:18,820 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:18,865 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:19,776 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:19,777 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:58:19,874 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:20,114 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-15 19:58:20,183 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:20,245 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:20,247 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:58:20,340 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:20,340 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:58:21,103 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:21,108 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:58:21,356 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:21,357 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:58:21,483 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:21,484 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:58:21,530 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:21,532 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:58:22,170 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:22,171 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:58:22,256 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:22,257 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:58:22,901 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:22,902 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-09-15 19:58:23,986 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:23,987 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:58:23,993 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:24,081 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-15 19:58:24,182 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:24,183 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:24,183 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:24,186 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:58:24,187 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:58:24,187 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:58:24,356 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:24,356 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:24,358 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:58:24,434 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:24,434 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:58:24,441 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:24,455 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:24,455 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:58:24,603 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:24,603 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:58:24,977 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:24,978 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:58:26,085 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:26,086 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:58:28,036 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:28,036 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:58:28,190 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:28,226 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-15 19:58:28,254 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:28,254 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:58:28,256 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:28,256 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:58:28,264 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:28,328 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:28,329 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:58:28,424 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:28,500 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:28,580 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:29,046 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:29,046 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:58:29,840 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:29,842 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:58:31,129 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:31,367 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:31,367 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-09-15 19:58:31,445 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:31,446 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-09-15 19:58:32,326 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:32,331 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:32,417 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:32,417 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:58:32,497 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:32,498 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:58:32,551 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:32,551 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:58:32,656 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-15 19:58:32,898 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:32,900 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:58:32,932 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:32,933 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:58:32,966 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:32,968 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:58:33,300 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:33,301 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:58:34,355 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:34,355 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:34,356 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:58:34,356 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:58:34,473 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:34,570 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:34,664 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:34,853 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:34,854 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-09-15 19:58:35,312 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:35,313 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-09-15 19:58:35,416 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:35,416 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-09-15 19:58:36,009 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:36,010 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:58:36,010 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:36,096 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:36,097 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:58:36,419 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:36,420 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:58:36,420 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:36,420 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:58:36,486 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:36,487 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:58:36,572 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-15 19:58:36,659 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:36,659 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:58:36,662 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:36,663 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:58:36,666 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:36,666 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:58:38,501 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:38,505 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:38,569 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:39,116 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:39,242 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:39,440 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:39,440 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-09-15 19:58:39,611 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:39,612 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-09-15 19:58:40,294 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:40,295 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:58:40,501 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:40,501 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:58:40,746 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:40,747 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:40,747 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:58:40,812 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:40,813 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:58:40,863 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:40,871 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-15 19:58:40,933 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:40,934 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:58:42,505 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:42,506 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:58:42,884 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:42,891 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:43,040 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:43,041 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:58:43,188 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:43,188 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:43,189 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-09-15 19:58:43,189 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:58:43,372 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:43,372 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-09-15 19:58:43,428 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:43,428 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-09-15 19:58:43,574 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:44,464 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:44,515 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:44,516 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:58:44,572 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:44,572 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:58:44,699 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-15 19:58:45,007 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:45,008 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:58:45,113 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:45,114 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:58:45,295 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:45,296 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:58:46,323 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:46,323 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:58:47,619 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:47,620 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:48,395 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:48,395 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:48,401 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:58:48,601 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-15 19:58:48,665 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:48,666 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:58:48,772 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:48,772 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:58:48,776 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:48,776 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:58:49,118 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:49,211 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:49,212 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:58:49,872 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:49,873 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:58:50,085 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:50,085 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:58:51,470 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:51,624 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:51,627 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-09-15 19:58:51,863 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:51,865 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:58:51,946 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:51,948 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:58:51,995 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:51,997 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:58:52,050 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:52,051 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:58:52,061 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:52,062 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:58:52,113 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:52,115 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:58:52,173 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:52,174 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:58:52,285 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:52,286 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:58:52,372 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-15 19:58:52,451 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:52,452 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:58:52,731 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:52,732 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:58:52,752 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:52,753 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:58:54,345 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:54,962 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:55,028 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:55,029 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-09-15 19:58:55,065 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:55,132 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:55,133 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-09-15 19:58:55,136 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:55,137 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-09-15 19:58:55,190 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:55,190 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-09-15 19:58:55,263 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:56,239 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:56,241 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:56,277 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:56,521 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:56,521 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:58:56,692 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-15 19:58:56,733 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:56,735 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:58:56,785 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:56,832 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:56,965 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:56,967 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:58:57,587 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:57,591 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:58:57,949 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:57,950 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:58:58,265 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:58,267 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:58:58,326 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:58,327 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:58,327 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:58:58,327 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:58:58,630 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:58,724 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:58,725 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:58:59,151 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:58:59,152 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:59:00,807 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:00,808 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:00,808 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:59:00,809 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:59:01,056 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:01,058 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:01,061 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:59:01,062 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:59:01,221 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-15 19:59:01,222 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:01,222 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:59:01,281 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:01,282 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:59:01,332 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:01,334 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:59:01,384 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:01,384 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:59:01,401 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:01,402 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:59:01,746 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:01,747 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:59:03,121 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:03,128 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:03,728 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:03,729 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-09-15 19:59:03,896 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:03,896 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:03,956 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:03,956 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-09-15 19:59:04,824 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:04,824 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:59:05,031 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:05,031 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:59:05,282 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-15 19:59:05,320 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:05,351 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:05,352 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:59:05,358 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:05,359 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:59:05,409 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:05,449 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:05,469 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:05,649 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:05,650 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:59:05,906 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:05,906 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:59:06,027 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:06,027 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:59:07,271 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:07,272 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:59:07,280 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:07,671 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:07,676 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-09-15 19:59:07,942 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:08,738 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:08,738 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:59:08,754 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:08,754 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:59:08,994 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:08,995 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:59:09,089 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:09,090 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:59:09,181 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-15 19:59:09,325 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:09,326 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:59:09,411 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:09,420 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:09,421 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:59:09,727 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:09,731 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:59:10,072 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:10,074 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:59:10,985 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:10,988 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:59:11,050 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:11,171 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:11,856 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:11,857 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:12,425 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:12,426 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-09-15 19:59:12,931 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:12,932 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:59:13,069 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:13,071 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:59:13,139 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:13,139 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:59:13,167 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:13,167 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:59:13,412 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-15 19:59:13,413 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:13,413 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:13,414 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:59:13,464 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:13,465 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:59:13,489 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:13,489 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:13,490 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:59:13,634 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:13,634 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:59:14,005 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:14,006 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:59:15,161 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:15,228 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:15,228 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:59:15,234 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:15,470 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:15,471 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:59:15,994 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:15,995 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-09-15 19:59:16,011 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:16,012 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-09-15 19:59:16,851 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:16,851 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-09-15 19:59:17,091 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:17,092 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:59:17,105 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:17,106 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:59:17,320 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:17,580 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-15 19:59:17,712 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:17,714 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:17,715 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:17,715 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:59:17,717 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:59:18,015 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:18,016 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:59:18,034 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:18,049 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:18,049 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:59:18,054 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:18,054 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:59:19,268 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:19,269 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:59:20,171 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:20,180 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:20,380 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:20,381 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-09-15 19:59:21,454 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:21,454 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:59:21,817 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:21,817 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:59:21,820 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:21,869 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:21,869 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:59:21,870 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-15 19:59:22,093 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:22,134 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:22,147 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:22,149 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:59:22,296 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:22,298 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:59:22,496 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:22,497 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:59:23,352 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:23,353 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:59:23,901 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:23,935 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:23,936 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:59:24,529 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:24,695 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:24,695 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-09-15 19:59:25,530 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:25,531 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:59:25,570 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:25,571 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:59:25,776 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:25,776 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:59:25,869 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-15 19:59:25,935 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:25,936 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:59:26,000 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:26,244 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:26,394 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:26,395 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:59:27,510 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:27,511 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:59:28,633 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:28,634 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:28,635 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-09-15 19:59:28,846 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:28,881 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:28,882 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-09-15 19:59:29,494 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:29,495 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:59:29,576 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:29,577 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:59:29,716 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:29,899 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-15 19:59:29,934 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:29,937 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:59:29,971 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:29,971 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:59:30,011 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:30,012 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:59:30,161 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:30,162 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:59:31,204 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:31,206 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:59:31,291 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:31,291 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:59:31,953 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:31,954 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:59:32,555 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:32,557 - INFO - Retrying request to /openai/v1/chat/completions in 1.000000 seconds
+2025-09-15 19:59:32,921 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:33,234 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:33,236 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:59:33,290 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:33,292 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:59:33,355 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:33,356 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:59:33,614 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-09-15 19:59:33,641 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:33,998 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:34,011 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:34,012 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:59:34,046 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:34,047 - INFO - Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+2025-09-15 19:59:34,176 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:34,521 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:34,523 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:59:34,770 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:34,772 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:59:35,114 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:35,115 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:59:35,135 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:35,136 - INFO - Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+2025-09-15 19:59:35,366 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:35,367 - INFO - Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+2025-09-15 19:59:36,329 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-09-15 19:59:36,698 - ERROR - An error occurred during test set generation: The runner thread which was running the jobs raised an exeception. Read the traceback above to debug it. You can also pass `raise_exceptions=False` incase you want to show only a warning message instead.
+Traceback (most recent call last):
+  File "D:\SIH\app\evaluation\generate_testset.py", line 45, in generate_evaluation_dataset
+    testset = generator.generate_with_langchain_docs(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\SIH\venv\Lib\site-packages\ragas\testset\generator.py", line 175, in generate_with_langchain_docs
+    self.docstore.add_documents(
+  File "D:\SIH\venv\Lib\site-packages\ragas\testset\docstore.py", line 215, in add_documents
+    self.add_nodes(nodes, show_progress=show_progress)
+  File "D:\SIH\venv\Lib\site-packages\ragas\testset\docstore.py", line 254, in add_nodes
+    raise ExceptionInRunner()
+ragas.exceptions.ExceptionInRunner: The runner thread which was running the jobs raised an exeception. Read the traceback above to debug it. You can also pass `raise_exceptions=False` incase you want to show only a warning message instead.

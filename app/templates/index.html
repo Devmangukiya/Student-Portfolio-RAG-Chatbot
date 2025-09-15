@@ -23,49 +23,23 @@
         }
 
         #cosmic-background {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: -1;
-            overflow: hidden;
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -1; overflow: hidden;
         }
-
         .rift-shape {
-            position: absolute;
-            border-radius: 100%;
-            filter: blur(120px);
-            will-change: transform;
+            position: absolute; border-radius: 100%; filter: blur(120px); will-change: transform;
         }
-
         #shape1 {
-            width: 700px;
-            height: 700px;
-            background: radial-gradient(circle, var(--primary-glow) 10%, transparent 70%);
-            top: -250px;
-            left: -250px;
-            animation: moveShape1 25s infinite alternate ease-in-out;
+            width: 700px; height: 700px; background: radial-gradient(circle, var(--primary-glow) 10%, transparent 70%);
+            top: -250px; left: -250px; animation: moveShape1 25s infinite alternate ease-in-out;
         }
-
         #shape2 {
-            width: 600px;
-            height: 600px;
-            background: radial-gradient(circle, var(--secondary-glow) 10%, transparent 70%);
-            bottom: -200px;
-            right: -200px;
-            animation: moveShape2 30s infinite alternate ease-in-out;
+            width: 600px; height: 600px; background: radial-gradient(circle, var(--secondary-glow) 10%, transparent 70%);
+            bottom: -200px; right: -200px; animation: moveShape2 30s infinite alternate ease-in-out;
         }
-        
         #shape3 {
-            width: 500px;
-            height: 500px;
-            background: radial-gradient(circle, rgba(255, 179, 71, 0.4) 10%, transparent 70%);
-            bottom: 100px;
-            left: 150px;
-            animation: moveShape3 22s infinite alternate ease-in-out;
+            width: 500px; height: 500px; background: radial-gradient(circle, rgba(255, 179, 71, 0.4) 10%, transparent 70%);
+            bottom: 100px; left: 150px; animation: moveShape3 22s infinite alternate ease-in-out;
         }
-
         @keyframes moveShape1 {
             from { transform: translate(0, 0) rotate(0deg) scale(1); }
             to { transform: translate(150px, 200px) rotate(120deg) scale(1.2); }
@@ -103,27 +77,26 @@
         ::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, 0.2); border-radius: 3px; }
         ::-webkit-scrollbar-thumb:hover { background: rgba(255, 255, 255, 0.3); }
 
-        .prose p { color: #d1d5db; }
+        .prose p { color: #d1d5db; margin: 0.5em 0; }
         .prose strong, .prose h1, .prose h2, .prose h3 { color: #ffffff; }
-
     </style>
 </head>
 <body class="flex items-center justify-center h-screen p-4">
 
+    <!-- The Cosmic Rift Background -->
     <div id="cosmic-background">
         <div id="shape1" class="rift-shape"></div>
         <div id="shape2" class="rift-shape"></div>
         <div id="shape3" class="rift-shape"></div>
     </div>
 
+    <!-- The Crystal Chat Window -->
     <div id="chat-window" class="w-full h-full max-w-4xl mx-auto rounded-3xl shadow-2xl flex flex-col">
         
         <header class="p-4 border-b border-white/10 flex items-center justify-between flex-shrink-0">
             <div class="flex items-center gap-4">
                 <div class="w-11 h-11 bg-gradient-to-tr from-[#9333ea] to-[#3b82f6] rounded-full flex items-center justify-center shadow-lg ring-2 ring-white/10">
-                    <svg class="w-6 h-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
-                    </svg>
+                    <svg class="w-6 h-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" /></svg>
                 </div>
                 <div>
                     <h1 class="text-lg font-bold text-white">Athena AI</h1>
@@ -139,9 +112,7 @@
              <div class="message-container">
                 <div class="message bot-message flex items-start gap-3 max-w-xl">
                     <div class="w-9 h-9 bg-black/20 backdrop-blur-sm rounded-full flex-shrink-0 shadow-inner flex items-center justify-center border border-white/10">
-                         <svg class="w-5 h-5 text-white/70" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
-                        </svg>
+                         <svg class="w-5 h-5 text-white/70" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" /></svg>
                     </div>
                     <div class="bg-black/30 backdrop-blur-sm p-4 rounded-xl rounded-bl-none shadow-lg text-gray-300 prose prose-sm max-w-none border border-white/10">
                         <p>Hello! I am Athena. I can provide detailed student portfolio summaries and answer questions about their achievements. How can I assist you?</p>
@@ -160,12 +131,14 @@
         </footer>
     </div>
 
+    <!-- ===== THIS IS THE ONLY SECTION THAT HAS CHANGED ===== -->
     <script>
         const chatForm = document.getElementById('chat-form');
         const userInput = document.getElementById('user-input');
         const chatMessages = document.getElementById('chat-messages');
         const sendButton = document.getElementById('send-button');
 
+        // This is now the real, functional event listener
         chatForm.addEventListener('submit', async (e) => {
             e.preventDefault();
             const query = userInput.value.trim();
@@ -177,6 +150,7 @@
             sendButton.disabled = true;
 
             try {
+                // This is the real API call to your Flask backend
                 const response = await fetch('/get_response', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
@@ -189,6 +163,7 @@
                 const data = await response.json();
                 const responseText = data.response || "Sorry, I couldn't get a response.";
                 
+                // Use marked.js to render any Markdown (like lists or bolding)
                 const renderedHtml = marked.parse(responseText);
                 appendMessage(renderedHtml, 'bot', true);
 
@@ -218,12 +193,11 @@
                 messageDiv.classList.add('user-message', 'justify-end');
                 contentWrapper.classList.add('bg-white/10', 'backdrop-blur-sm', 'text-gray-200', 'rounded-br-none');
                 
-                if (isHtml) { contentWrapper.innerHTML = content; } 
-                else { contentWrapper.innerHTML = `<p>${content}</p>`; }
+                contentWrapper.innerHTML = `<p>${content}</p>`;
                 
                 messageDiv.appendChild(contentWrapper);
                 messageDiv.insertAdjacentHTML('beforeend', userAvatar);
-            } else { 
+            } else { // Bot message
                 messageDiv.classList.add('bot-message', 'max-w-xl');
                 contentWrapper.classList.add('bg-black/30', 'backdrop-blur-sm', 'text-gray-300', 'rounded-bl-none');
                 messageDiv.insertAdjacentHTML('afterbegin', botAvatar);

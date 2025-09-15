@@ -44,7 +44,7 @@ def generate_evaluation_dataset():
        
         testset = generator.generate_with_langchain_docs(
             documents=text_chunks, 
-            test_size=3,  
+            test_size=5,  
             distributions={simple: 1.0}, 
             run_config=run_config,
             is_async=False
