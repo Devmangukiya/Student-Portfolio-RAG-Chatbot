@@ -13,11 +13,9 @@ Requires-Dist: sentence-transformers
 Requires-Dist: groq
 Requires-Dist: langchain-groq
 Requires-Dist: jq
-Requires-Dist: ragas==0.1.7
-Requires-Dist: pydantic==1.10.13
 Requires-Dist: pandas
-Requires-Dist: datasets
 Requires-Dist: pyyaml
 Requires-Dist: langchain-pinecone
+Requires-Dist: streamlit
 Dynamic: author
 Dynamic: requires-dist
