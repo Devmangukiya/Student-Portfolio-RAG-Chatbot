@@ -121,3 +121,4 @@ if prompt := st.chat_input("Ask Athena a question..."):
                     st.session_state.messages.append({"role": "assistant", "content": error_message})
     else:
         st.error("The AI components failed to load. Please check the server logs.")
+    

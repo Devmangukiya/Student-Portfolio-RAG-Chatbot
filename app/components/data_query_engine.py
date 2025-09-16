@@ -44,7 +44,7 @@ PROMPT_STRUCTURED_QUERY = PromptTemplate.from_template(
 You are an expert data analyst. Your task is to parse a user's question and extract filtering criteria into a structured JSON format.
 
 ### CONTEXT ###
-You are working with a dataset of student achievements with columns like: ['name', 'department', 'type', 'status'].
+You are working with a dataset of student achievements with columns like: ['name', 'department', 'type', 'status', 'student_id', 'achievement_id'].
 
 ### TASK ###
 Based on the user's question, identify the column to filter on, the value to filter by, and the column to return.
@@ -52,9 +52,28 @@ Based on the user's question, identify the column to filter on, the value to fil
 ### IMPORTANT RULES ###
 1. Your output MUST be ONLY a valid JSON object.
 2. If the user asks for ALL items in a column (e.g., "list all students"), set `column_to_filter` and `filter_value` to `null`.
-3. The `filter_value` should be the specific text the user is searching for, converted to lowercase.
-4. The `column_to_return` is the information the user wants listed.
+3. If the user asks for a "summary", "details", or "information about" a specific item (e.g., a student or achievement by ID), set `column_to_return` to the special value "summary".
+4. The `filter_value` should be the specific text the user is searching for, converted to lowercase.
+5. The `column_to_return` is the information the user wants listed.
 
+### EXAMPLES ###
+User Question: "give me list of all students which have workshop type achievement"
+{{"column_to_filter": "type", "filter_value": "workshop", "column_to_return": "name"}}
+
+User Question: "give me the name of all students"
+{{"column_to_filter": null, "filter_value": null, "column_to_return": "name"}}
+
+User Question: "give me all student id"
+{{"column_to_filter": null, "filter_value": null, "column_to_return": "student_id"}}
+
+User Question: "give me all achievement id"
+{{"column_to_filter": null, "filter_value": null, "column_to_return": "achievement_id"}}
+
+User Question: "give me summary of student which student id is STU078"
+{{"column_to_filter": "student_id", "filter_value": "stu078", "column_to_return": "summary"}}
+
+User Question: "give me details about achievement ACH0841"
+{{"column_to_filter": "achievement_id", "filter_value": "ach0841", "column_to_return": "summary"}}
 ### USER QUESTION ###
 {question}
 
@@ -101,6 +120,7 @@ User Question: "Give me a faculty name which approved most certificate"
 
 class DataQueryEngine:
     def __init__(self):
+        # This function is correct and needs no changes
         try:
             logger.info("Initializing Hybrid DataQueryEngine...")
             project_root = Path(__file__).resolve().parent.parent.parent
@@ -123,6 +143,7 @@ class DataQueryEngine:
             raise CustomException(f"Failed to initialize DataQueryEngine: {e}")
 
     def query_data(self, user_query: str) -> str:
+        # This routing logic is correct and needs no changes
         try:
             logger.info(f"Classifying query: '{user_query}'")
             query_type = self.router_chain.invoke({"question": user_query}).strip()
@@ -137,31 +158,42 @@ class DataQueryEngine:
             return "Sorry, I encountered an error while processing your query."
 
     def _execute_structured_query(self, user_query: str) -> str:
+        # This function is correct and needs no changes
         json_response = ""
         try:
             logger.info("Executing structured (JSON) query path...")
             json_response = self.structured_query_chain.invoke({"question": user_query})
             query_params = json.loads(json_response)
+            
             col_filter = query_params.get('column_to_filter')
             val_filter = query_params.get('filter_value')
             col_return = query_params.get('column_to_return')
-            if not col_return: raise ValueError("'column_to_return' is missing.")
+
+            if not col_return:
+                raise ValueError("'column_to_return' is missing from the LLM's response.")
             
             if col_filter and val_filter is not None:
                 result_series = self.df[self.df[col_filter] == val_filter.lower()][col_return]
             else:
                 result_series = self.df[col_return]
+
             result = result_series.unique().tolist()
             
             if not result: return "No results found for that query."
             
-            formatted_result = [f"{i+1}. {str(item).title()}" for i, item in enumerate(sorted(result))]
+            # Use title() for names, but keep IDs uppercase for clarity
+            if 'id' in col_return.lower():
+                formatted_result = [f"{i+1}. {str(item).upper()}" for i, item in enumerate(sorted(result))]
+            else:
+                formatted_result = [f"{i+1}. {str(item).title()}" for i, item in enumerate(sorted(result))]
+                
             return "Here are the results:\n" + "\n".join(formatted_result)
         except (json.JSONDecodeError, KeyError, ValueError) as e:
             logger.error(f"Structured query failed. Response: '{json_response}'. Error: {e}")
             return "Sorry, I had trouble understanding the structure of that query."
-            
+
     def _execute_analytical_query(self, user_query: str) -> str:
+        # This function is correct and needs no changes
         json_plan_response = ""
         try:
             logger.info("Executing complex (Analytical) query path...")
@@ -169,18 +201,19 @@ class DataQueryEngine:
             plan = json.loads(json_plan_response)
             
             logger.info(f"Executing analytical plan: {plan}")
+            df = self.df.copy()
             
-            
-            df = self.df
-            
+            if plan.get('filter_col') and plan.get('filter_val'):
+                df = df[df[plan['filter_col']] == plan['filter_val']]
+
             grouped_data = df.groupby(plan['groupby_col'])[plan['agg_col']]
             
             if plan['agg_func'] == 'sum':
                 aggregated_data = grouped_data.sum()
             elif plan['agg_func'] == 'count':
-                aggregated_data = grouped_data.size() 
+                aggregated_data = grouped_data.size()
             elif plan['agg_func'] == 'idxmax':
-                result = grouped_data.sum().idxmax()
+                result = aggregated_data.idxmax()
                 return f"The result is: {str(result).title()}"
             else:
                 raise ValueError(f"Unsupported aggregation function: {plan['agg_func']}")
@@ -189,16 +222,13 @@ class DataQueryEngine:
             top_results = sorted_data.head(plan.get('top_n', 10))
             
             result = top_results.index.tolist()
-
             if not result: return "No results found for that query."
             
             formatted_result = [f"{i+1}. {str(item).title()}" for i, item in enumerate(result)]
             return "Here are the results:\n" + "\n".join(formatted_result)
-
         except (json.JSONDecodeError, KeyError, ValueError) as e:
             logger.error(f"Analytical query failed. Plan: '{json_plan_response}'. Error: {e}")
             return "Sorry, I had trouble creating a plan for that analytical query."
         except Exception as e:
             logger.error(f"An unexpected error occurred during analytical query: {e}")
             return "Sorry, I was unable to process that data query."
-

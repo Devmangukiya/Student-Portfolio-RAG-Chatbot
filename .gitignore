@@ -3,7 +3,7 @@ venv/
 pycache/
 *.pyc
 *.pyo
-*.pyd
+*.pyd4
 .env
 data/
 vectorstore/
@@ -13,4 +13,3 @@ eval/
 .DS_Store
 SIH.egg-info/
 logs/
-
